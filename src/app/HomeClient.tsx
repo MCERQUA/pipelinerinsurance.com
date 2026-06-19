@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 import {
   Shield,
   Users,
@@ -223,28 +224,26 @@ export default function HomeClient() {
               </motion.div>
             </div>
 
-            {/* Right: Visual */}
+            {/* Right: Hero Image */}
             <motion.div variants={fadeInUp} className="flex justify-center">
-              <div
-                className="relative w-72 h-72 lg:w-96 lg:h-96 rounded-3xl flex items-center justify-center"
-                style={{ backgroundColor: "#e8f1fc" }}
-              >
-                <div className="grid grid-cols-2 gap-6">
-                  {[Shield, Wrench, AlertTriangle, Truck].map((Icon, i) => (
-                    <div
-                      key={i}
-                      className="w-20 h-20 rounded-2xl flex items-center justify-center shadow-sm"
-                      style={{ backgroundColor: i % 2 === 0 ? "#1a4f8a" : "#f97316" }}
-                    >
-                      <Icon size={36} color="white" />
-                    </div>
-                  ))}
-                </div>
-                {/* Decorative ring */}
-                <div
-                  className="absolute inset-0 rounded-3xl border-2 opacity-20"
-                  style={{ borderColor: "#1a4f8a" }}
+              <div className="relative w-full max-w-lg aspect-square rounded-3xl overflow-hidden shadow-2xl">
+                <Image
+                  src="/images/hero.png"
+                  alt="Pipeline construction project — aerial view with excavation equipment"
+                  fill
+                  className="object-cover"
+                  priority
+                  sizes="(max-width: 768px) 100vw, 50vw"
                 />
+                <div
+                  className="absolute inset-0 rounded-3xl"
+                  style={{ background: "linear-gradient(180deg, transparent 60%, rgba(26,79,138,0.3) 100%)" }}
+                />
+                <div className="absolute bottom-4 left-4 right-4">
+                  <span className="inline-flex items-center gap-1.5 bg-white/90 backdrop-blur-sm text-xs font-semibold px-3 py-1.5 rounded-full" style={{ color: "#1a4f8a" }}>
+                    <Shield size={12} /> Trusted by 298+ Pipeline Contractors
+                  </span>
+                </div>
               </div>
             </motion.div>
           </motion.div>
