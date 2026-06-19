@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #ffffff;
+  --color-foreground: #0f172a;
+  --color-primary: #1a4f8a;
+  --color-primary-dark: #123568;
+  --color-secondary: #2563eb;
+  --color-accent: #f97316;
+  --color-accent-dark: #ea6b00;
+  --color-surface: #f0f7ff;
+  --color-surface-elevated: #e0eeff;
+  --color-border: rgba(26, 79, 138, 0.15);
+  --color-border-subtle: rgba(0, 0, 0, 0.08);
+  --color-muted: #64748b;
+  --color-muted-foreground: #94a3b8;
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-geist-mono);
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #0f172a;
+  --primary: #1a4f8a;
+  --primary-dark: #123568;
+  --secondary: #2563eb;
+  --accent: #f97316;
+  --surface: #f0f7ff;
+  --surface-elevated: #e0eeff;
+  --border: rgba(26, 79, 138, 0.15);
+  --muted: #64748b;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.pipeline-gradient {
+  background: linear-gradient(135deg, #1a4f8a 0%, #2563eb 50%, #0f172a 100%);
+}
+
+.orange-gradient {
+  background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+}

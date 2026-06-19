@@ -1,0 +1,248 @@
+{
+    "version": "0.1.20260610",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "2.4264 sec.",
+    "cost": 0.075,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "06190813-1574-0367-0000-bdba5e67b22f",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "2.2800 sec.",
+            "cost": 0.075,
+            "result_count": 10,
+            "path": [
+                "v3",
+                "keywords_data",
+                "google_ads",
+                "search_volume",
+                "live"
+            ],
+            "data": {
+                "api": "keywords_data",
+                "function": "search_volume",
+                "se": "google_ads",
+                "keywords": [
+                    "pipeline contractor insurance",
+                    "pipeline construction insurance",
+                    "oil pipeline contractor insurance",
+                    "gas pipeline contractor insurance",
+                    "pipeline installer insurance",
+                    "pipeline workers comp",
+                    "pipeline contractor general liability",
+                    "pipeline contractor bond",
+                    "underground pipeline insurance",
+                    "pipeline contractor coverage"
+                ],
+                "location_name": "United States",
+                "language_name": "English"
+            },
+            "result": [
+                {
+                    "keyword": "pipeline contractor insurance",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "pipeline construction insurance",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": "MEDIUM",
+                    "competition_index": 57,
+                    "search_volume": 10,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": [
+                        {
+                            "year": 2026,
+                            "month": 5,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 4,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 3,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2026,
+                            "month": 2,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2026,
+                            "month": 1,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2025,
+                            "month": 12,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 11,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 10,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2025,
+                            "month": 9,
+                            "search_volume": 10
+                        },
+                        {
+                            "year": 2025,
+                            "month": 8,
+                            "search_volume": 20
+                        },
+                        {
+                            "year": 2025,
+                            "month": 7,
+                            "search_volume": 0
+                        },
+                        {
+                            "year": 2025,
+                            "month": 6,
+                            "search_volume": 10
+                        }
+                    ]
+                },
+                {
+                    "keyword": "oil pipeline contractor insurance",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "gas pipeline contractor insurance",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "pipeline installer insurance",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "pipeline workers comp",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "pipeline contractor general liability",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "pipeline contractor bond",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "underground pipeline insurance",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                },
+                {
+                    "keyword": "pipeline contractor coverage",
+                    "spell": null,
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "search_partners": false,
+                    "competition": null,
+                    "competition_index": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "cpc": null,
+                    "monthly_searches": null
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1a4f8a"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="pipeGrad" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#c2410c"/>
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0" y1="0" x2="1" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563eb" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#1e3a5f" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+
+  <!-- Subtle grid overlay -->
+  <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+    <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#ffffff" stroke-width="0.3" opacity="0.05"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+
+  <!-- Orange accent bar at top -->
+  <rect x="0" y="0" width="1200" height="8" fill="#f97316"/>
+
+  <!-- Decorative shield (large, background element) -->
+  <path d="M 950 80 L 820 130 L 820 270 C 820 360 882 438 950 460 C 1018 438 1080 360 1080 270 L 1080 130 Z"
+        fill="url(#shieldGrad)" stroke="#2563eb" stroke-width="1.5" stroke-opacity="0.3"/>
+
+  <!-- Shield pipe decoration -->
+  <rect x="830" y="255" width="240" height="28" rx="14" fill="#f97316" opacity="0.7"/>
+  <ellipse cx="830" cy="269" rx="14" ry="14" fill="#fb923c" opacity="0.7"/>
+  <ellipse cx="1070" cy="269" rx="14" ry="14" fill="#fb923c" opacity="0.7"/>
+
+  <!-- Small pipe icon left of main text -->
+  <g transform="translate(80, 200)">
+    <!-- Mini shield -->
+    <path d="M 55 0 L 10 18 L 10 58 C 10 85 30 108 55 115 C 80 108 100 85 100 58 L 100 18 Z"
+          fill="#1a4f8a" stroke="#3b82f6" stroke-width="2"/>
+    <!-- Mini pipe -->
+    <rect x="10" y="52" width="90" height="18" rx="9" fill="#f97316"/>
+    <ellipse cx="10" cy="61" rx="9" ry="9" fill="#fb923c"/>
+    <ellipse cx="100" cy="61" rx="9" ry="9" fill="#fb923c"/>
+    <rect x="14" y="55" width="82" height="6" rx="3" fill="#fed7aa" opacity="0.4"/>
+  </g>
+
+  <!-- Main headline -->
+  <text x="90" y="370" font-family="'Arial', 'Helvetica Neue', sans-serif"
+        font-size="72" font-weight="800" fill="#ffffff" letter-spacing="-1">
+    Pipeline Contractor
+  </text>
+  <text x="90" y="455" font-family="'Arial', 'Helvetica Neue', sans-serif"
+        font-size="72" font-weight="800" fill="#f97316" letter-spacing="-1">
+    Insurance
+  </text>
+
+  <!-- Subtitle -->
+  <text x="90" y="510" font-family="'Arial', 'Helvetica Neue', sans-serif"
+        font-size="28" font-weight="400" fill="#94a3b8" letter-spacing="0.5">
+    Specialized Coverage for Oil, Gas &amp; Underground Pipeline Contractors
+  </text>
+
+  <!-- Divider line -->
+  <rect x="90" y="540" width="80" height="3" rx="1.5" fill="#f97316"/>
+
+  <!-- Domain name at bottom -->
+  <text x="90" y="590" font-family="'Arial', 'Helvetica Neue', sans-serif"
+        font-size="26" font-weight="600" fill="#64748b" letter-spacing="1">
+    PipelineInsurance.com
+  </text>
+
+  <!-- Phone number -->
+  <text x="700" y="590" font-family="'Arial', 'Helvetica Neue', sans-serif"
+        font-size="24" font-weight="500" fill="#475569" letter-spacing="0.5">
+    844-967-5247  |  All 50 States
+  </text>
+
+  <!-- Bottom orange accent bar -->
+  <rect x="0" y="622" width="1200" height="8" fill="#f97316" opacity="0.4"/>
+</svg>

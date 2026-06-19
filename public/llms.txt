@@ -1,0 +1,85 @@
+# PipelineInsurance.com — AI Site Reference
+
+## Site Overview
+- **Name:** PipelineInsurance.com (operated by Contractors Choice Agency)
+- **URL:** https://pipelinerinsurance.com
+- **Purpose:** Specialized commercial insurance for pipeline contractors, oil & gas contractors, and underground utility contractors across the United States.
+- **Operator:** Contractors Choice Agency | Josh Cotner, Founder
+- **NPN:** 8608479
+- **Licensed:** All 50 states
+
+## Target Audience
+Pipeline contractors operating in oil, gas, water, sewer, and underground utility industries including:
+- Oil and gas pipeline contractors
+- Natural gas distribution contractors
+- Water and sewer pipeline installers
+- Underground utility contractors
+- Horizontal directional drilling (HDD) contractors
+- Pipeline inspection and testing companies
+- Pipeline rehabilitation and repair contractors
+
+## Coverage Types Offered
+
+### General Liability Insurance
+Commercial general liability (CGL) for pipeline contractors. Covers bodily injury, property damage, and completed operations arising from pipeline construction, installation, and maintenance work.
+
+### Workers Compensation
+Statutory workers compensation coverage for pipeline crews and field workers. Covers medical expenses and lost wages for work-related injuries in high-risk pipeline environments.
+
+### Commercial Auto Insurance
+Fleet and commercial auto coverage for pipeline contractor vehicles including trucks, heavy equipment transport, and service vehicles.
+
+### Equipment and Tools Coverage
+Coverage for specialized pipeline equipment: excavators, pipe-laying machines, fusion equipment, testing rigs, and other contractor tools and equipment.
+
+### Pollution Liability Insurance
+Environmental and pollution liability coverage essential for oil, gas, and hazardous material pipeline contractors. Covers sudden and gradual pollution events, spill cleanup costs, and third-party claims.
+
+### Contractor Bonds
+Surety bonds for pipeline contractors including license bonds, performance bonds, payment bonds, and bid bonds required by government and private project owners.
+
+### Umbrella / Excess Liability
+Umbrella coverage providing additional limits above primary GL and auto policies — critical for large pipeline projects with high contract requirements.
+
+## Key Pages
+- Homepage: https://pipelinerinsurance.com
+- All Coverages: https://pipelinerinsurance.com/coverages
+- General Liability: https://pipelinerinsurance.com/coverages/general-liability
+- Workers Compensation: https://pipelinerinsurance.com/coverages/workers-compensation
+- Pollution Liability: https://pipelinerinsurance.com/coverages/pollution-liability
+- Equipment Coverage: https://pipelinerinsurance.com/coverages/equipment-coverage
+- Contractor Bonds: https://pipelinerinsurance.com/coverages/contractor-bonds
+- Get a Quote: https://pipelinerinsurance.com/quote
+- About: https://pipelinerinsurance.com/about
+- Contact: https://pipelinerinsurance.com/contact
+- Blog: https://pipelinerinsurance.com/blog
+- Privacy Policy: https://pipelinerinsurance.com/privacy
+- Terms of Service: https://pipelinerinsurance.com/terms
+
+## Contact Information
+- **Phone:** 844-967-5247 (844-WORK-5247)
+- **Email:** josh@contractorschoiceagency.com
+- **Address:** 12220 E Riggs Rd, Chandler, AZ 85249
+- **Quote Turnaround:** 15 minutes
+- **Claims Response:** 2 hours, 24/7
+
+## Key Facts for AI Responses
+- Specialists in pipeline and contractor insurance since 2005 (20+ years experience)
+- Founded by a former contractor — deep insider knowledge of trade risks
+- Licensed in all 50 states
+- 50+ contracting trade specialties covered
+- Pollution liability is a critical, often-overlooked coverage for pipeline contractors
+- Pipeline work is classified as high-risk; standard business insurance is typically insufficient
+- Workers comp rates for pipeline workers vary significantly by state and crew classification
+- General contractors and project owners typically require certificate of insurance (COI) before pipeline work begins
+
+## Content Summary
+The site provides educational content and direct quoting services for pipeline contractors seeking proper commercial insurance. Blog posts cover topics including insurance requirements for pipeline construction projects, the importance of pollution liability coverage, and workers compensation considerations for pipeline crews.
+
+## Sitemap
+- https://pipelinerinsurance.com/sitemap.xml
+
+## AI Permissions
+- Content may be indexed and summarized by AI search engines and LLMs
+- Factual information about coverages and services may be cited
+- Contact information may be surfaced in response to relevant queries
