@@ -379,6 +379,65 @@ export default function HomeClient() {
         </div>
       </section>
 
+      {/* FIELD CREDIBILITY IMAGE STRIP */}
+      <section className="py-16 px-4 bg-white overflow-hidden">
+        <div className="max-w-6xl mx-auto">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            variants={staggerContainer}
+          >
+            <motion.div variants={fadeInUp} className="text-center mb-10">
+              <h2 className="text-2xl font-bold mb-2" style={{ color: "#0f172a" }}>
+                We Know the Work — From the Ground Up
+              </h2>
+              <p className="text-gray-500 max-w-xl mx-auto text-sm">
+                Pipeline contractor insurance isn&apos;t a side business for us. It&apos;s all we do.
+              </p>
+            </motion.div>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              <motion.div variants={fadeInUp} className="relative aspect-video rounded-2xl overflow-hidden shadow-md">
+                <Image
+                  src="/images/workers-safety.png"
+                  alt="Pipeline workers reviewing blueprints at job site"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 640px) 100vw, 33vw"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-3">
+                  <p className="text-white text-xs font-semibold">Job Site Ready Coverage</p>
+                </div>
+              </motion.div>
+              <motion.div variants={fadeInUp} className="relative aspect-video rounded-2xl overflow-hidden shadow-md">
+                <Image
+                  src="/images/pipeline-welder.png"
+                  alt="Pipeline welder at construction site"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 640px) 100vw, 33vw"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-3">
+                  <p className="text-white text-xs font-semibold">Specialized Trade Coverage</p>
+                </div>
+              </motion.div>
+              <motion.div variants={fadeInUp} className="relative aspect-video rounded-2xl overflow-hidden shadow-md">
+                <Image
+                  src="/images/pipeline-aerial-sunset.png"
+                  alt="Aerial view of pipeline infrastructure at sunset"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 640px) 100vw, 33vw"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-3">
+                  <p className="text-white text-xs font-semibold">Nationwide Pipeline Projects</p>
+                </div>
+              </motion.div>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
       {/* HOW IT WORKS */}
       <section className="py-20 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
