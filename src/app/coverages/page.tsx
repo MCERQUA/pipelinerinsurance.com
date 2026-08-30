@@ -62,10 +62,10 @@ const accentColors: Record<string, { bg: string; text: string; border: string; i
     iconBg: "bg-[#ca8a04]",
   },
   Award: {
-    bg: "bg-[#fdf4ff]",
-    text: "text-[#6b21a8]",
-    border: "border-[rgba(168,85,247,0.15)]",
-    iconBg: "bg-[#9333ea]",
+    bg: "bg-[#fdf6ee]",
+    text: "text-[#92400e]",
+    border: "border-[rgba(180,83,9,0.15)]",
+    iconBg: "bg-[#b45309]",
   },
 };
 

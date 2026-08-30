@@ -228,7 +228,7 @@ export default function HomeClient() {
             <motion.div variants={fadeInUp} className="flex justify-center">
               <div className="relative w-full max-w-lg aspect-square rounded-3xl overflow-hidden shadow-2xl">
                 <Image
-                  src="/images/hero.png"
+                  src="/images/hero.jpg"
                   alt="Pipeline construction project — aerial view with excavation equipment"
                   fill
                   className="object-cover"
@@ -399,7 +399,7 @@ export default function HomeClient() {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               <motion.div variants={fadeInUp} className="relative aspect-video rounded-2xl overflow-hidden shadow-md">
                 <Image
-                  src="/images/workers-safety.png"
+                  src="/images/workers-safety.jpg"
                   alt="Pipeline workers reviewing blueprints at job site"
                   fill
                   className="object-cover"
@@ -411,7 +411,7 @@ export default function HomeClient() {
               </motion.div>
               <motion.div variants={fadeInUp} className="relative aspect-video rounded-2xl overflow-hidden shadow-md">
                 <Image
-                  src="/images/pipeline-welder.png"
+                  src="/images/pipeline-welder.jpg"
                   alt="Pipeline welder at construction site"
                   fill
                   className="object-cover"
@@ -423,7 +423,7 @@ export default function HomeClient() {
               </motion.div>
               <motion.div variants={fadeInUp} className="relative aspect-video rounded-2xl overflow-hidden shadow-md">
                 <Image
-                  src="/images/pipeline-aerial-sunset.png"
+                  src="/images/pipeline-aerial-sunset.jpg"
                   alt="Aerial view of pipeline infrastructure at sunset"
                   fill
                   className="object-cover"
