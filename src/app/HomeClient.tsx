@@ -542,60 +542,6 @@ export default function HomeClient() {
         </div>
       </section>
 
-      {/* TESTIMONIALS */}
-      <section className="py-20 px-4 bg-white">
-        <div className="max-w-6xl mx-auto">
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            variants={staggerContainer}
-          >
-            <motion.div variants={fadeInUp} className="text-center mb-12">
-              <h2 className="text-3xl font-bold mb-3" style={{ color: "#0f172a" }}>
-                What Pipeline Contractors Say
-              </h2>
-              <p className="text-gray-500">
-                Real feedback from contractors we have covered across the country.
-              </p>
-            </motion.div>
-
-            <div className="grid md:grid-cols-3 gap-6">
-              {testimonials.map((t) => (
-                <motion.div
-                  key={t.name}
-                  variants={fadeInUp}
-                  className="rounded-xl p-6"
-                  style={{ backgroundColor: "#f0f7ff" }}
-                >
-                  <div className="flex gap-0.5 mb-4">
-                    {[...Array(5)].map((_, i) => (
-                      <Star
-                        key={i}
-                        size={16}
-                        fill="#f97316"
-                        style={{ color: "#f97316" }}
-                      />
-                    ))}
-                  </div>
-                  <p className="text-gray-700 text-sm leading-relaxed mb-5 italic">
-                    &ldquo;{t.quote}&rdquo;
-                  </p>
-                  <div>
-                    <div className="font-semibold text-sm" style={{ color: "#0f172a" }}>
-                      {t.name}
-                    </div>
-                    <div className="text-xs text-gray-500">
-                      {t.company} &mdash; {t.location}
-                    </div>
-                  </div>
-                </motion.div>
-              ))}
-            </div>
-          </motion.div>
-        </div>
-      </section>
-
       {/* FINAL CTA BAND */}
       <section className="py-20 px-4" style={{ backgroundColor: "#f97316" }}>
         <div className="max-w-3xl mx-auto text-center">
