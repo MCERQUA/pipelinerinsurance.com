@@ -352,12 +352,207 @@ export default function QuotePage() {
                       />
                     </div>
 
+                    {/* complete contractor field set — forms-required-fields.json */}
+                    <div className="space-y-4 pt-5 border-t border-adobe">
+                      <div>
+                        <h3 className="font-bold text-lg mb-5">Business address</h3>
+                        <p className="text-xs text-mocha/70 mt-0.5">Where your operation is based.</p>
+                      </div>
+                      <div className="mb-4">
+                      <label className="block text-sm font-semibold text-gray-700 mb-1.5">Street address</label>
+                      <input type="text" name="street_address" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                    </div>
+                      <div className="grid sm:grid-cols-2 gap-4">
+                        <div className="mb-4">
+                      <label className="block text-sm font-semibold text-gray-700 mb-1.5">City</label>
+                      <input type="text" name="city" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                    </div>
+                        <div className="mb-4">
+                      <label className="block text-sm font-semibold text-gray-700 mb-1.5">ZIP code</label>
+                      <input type="text" name="zip" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                    </div>
+                      </div>
+                    </div>
+                    <div className="space-y-4 pt-5 border-t border-adobe">
+                      <div>
+                        <h3 className="font-bold text-lg mb-5">Prior year</h3>
+                        <p className="text-xs text-mocha/70 mt-0.5">Your last completed 12 months. Best estimates are fine.</p>
+                      </div>
+                      <div className="grid sm:grid-cols-2 gap-4">
+                        <div className="mb-4">
+                      <label className="block text-sm font-semibold text-gray-700 mb-1.5">Prior year gross sales</label>
+                      <input type="text" name="prior_year_gross_sales" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                    </div>
+                        <div className="mb-4">
+                      <label className="block text-sm font-semibold text-gray-700 mb-1.5">Prior year subcontractor expenses</label>
+                      <input type="text" name="prior_year_subcontractor_expenses" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                    </div>
+                      </div>
+                      <div className="grid sm:grid-cols-2 gap-4">
+                        <div className="mb-4">
+                      <label className="block text-sm font-semibold text-gray-700 mb-1.5">Prior year employee count</label>
+                      <input type="number" name="prior_year_employee_count" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                    </div>
+                        <div className="mb-4">
+                      <label className="block text-sm font-semibold text-gray-700 mb-1.5">Prior year employee payroll</label>
+                      <input type="text" name="prior_year_employee_payroll" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                    </div>
+                      </div>
+                    </div>
+                    <div className="space-y-4 pt-5 border-t border-adobe">
+                      <div>
+                        <h3 className="font-bold text-lg mb-5">Next twelve months — estimates</h3>
+                        <p className="text-xs text-mocha/70 mt-0.5">What you expect over the coming year.</p>
+                      </div>
+                      <div className="grid sm:grid-cols-2 gap-4">
+                        <div className="mb-4">
+                      <label className="block text-sm font-semibold text-gray-700 mb-1.5">Estimated gross sales (next 12 months)</label>
+                      <input type="text" name="estimated_gross_sales" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                    </div>
+                        <div className="mb-4">
+                      <label className="block text-sm font-semibold text-gray-700 mb-1.5">Estimated subcontractor expenses (next 12 months)</label>
+                      <input type="text" name="estimated_subcontractor_expenses" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                    </div>
+                      </div>
+                      <div className="grid sm:grid-cols-2 gap-4">
+                        <div className="mb-4">
+                      <label className="block text-sm font-semibold text-gray-700 mb-1.5">Estimated employee count (year total)</label>
+                      <input type="number" name="estimated_employee_count" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                    </div>
+                        <div className="mb-4">
+                      <label className="block text-sm font-semibold text-gray-700 mb-1.5">Estimated employee annual payroll</label>
+                      <input type="text" name="estimated_employee_payroll" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                    </div>
+                      </div>
+                      <div className="mb-4">
+                      <label className="block text-sm font-semibold text-gray-700 mb-1.5">Estimated material costs</label>
+                      <input type="text" name="estimated_material_costs" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                    </div>
+                    </div>
+                    <div className="space-y-4 pt-5 border-t border-adobe">
+                      <div>
+                        <h3 className="font-bold text-lg mb-5">Subcontractor insurance</h3>
+                        <p className="text-xs text-mocha/70 mt-0.5">This drives how your policy is rated — answer if you use subs.</p>
+                      </div>
+                      <div className="grid sm:grid-cols-2 gap-4">
+                        <div className="mb-4">
+                      <label className="block text-sm font-semibold text-gray-700 mb-1.5">Do your subcontractors have insurance?</label>
+                      <select name="subcontractors_have_insurance" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow"><option value="">Select...</option><option value="Yes">Yes</option><option value="No">No</option></select>
+                    </div>
+                        <div className="mb-4">
+                      <label className="block text-sm font-semibold text-gray-700 mb-1.5">What percent of your subcontractors have insurance?</label>
+                      <input type="number" name="percent_subcontractors_insured" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                    </div>
+                      </div>
+                      <div className="mb-4">
+                      <label className="block text-sm font-semibold text-gray-700 mb-1.5">Do you need coverage for uninsured subcontractors?</label>
+                      <select name="coverage_for_uninsured_subcontractors" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow"><option value="">Select...</option><option value="Yes">Yes</option><option value="No">No</option></select>
+                    </div>
+                    </div>
+                    <div className="space-y-4 pt-5 border-t border-adobe">
+                      <div>
+                        <h3 className="font-bold text-lg mb-5">Your operation</h3>
+                        <p className="text-xs text-mocha/70 mt-0.5">How the work splits and what you build.</p>
+                      </div>
+                      <div className="grid sm:grid-cols-2 gap-4">
+                        <div className="mb-4">
+                      <label className="block text-sm font-semibold text-gray-700 mb-1.5">Year business started</label>
+                      <input type="number" name="year_business_started" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                    </div>
+                        <div className="mb-4">
+                      <label className="block text-sm font-semibold text-gray-700 mb-1.5">Residential vs commercial split</label>
+                      <input type="text" name="residential_vs_commercial" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                    </div>
+                      </div>
+                      <div className="mb-4">
+                      <label className="block text-sm font-semibold text-gray-700 mb-1.5">New construction vs existing / remodel</label>
+                      <input type="text" name="new_vs_existing_construction" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                    </div>
+                      <div className="mb-4">
+                      <label className="block text-sm font-semibold text-gray-700 mb-1.5">Description of business</label>
+                      <textarea name="business_description" rows={3} className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow"></textarea>
+                    </div>
+                      <div className="mb-4">
+                      <label className="block text-sm font-semibold text-gray-700 mb-1.5">5 largest projects ever (description + dollar amount)</label>
+                      <textarea name="largest_projects" rows={3} className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow"></textarea>
+                    </div>
+                    </div>
+                    <div className="space-y-4 pt-5 border-t border-adobe">
+                      <div>
+                        <h3 className="font-bold text-lg mb-5">Class codes</h3>
+                        <p className="text-xs text-mocha/70 mt-0.5">If you know them. Leave blank and we'll assign them.</p>
+                      </div>
+                      <div className="grid sm:grid-cols-2 gap-4">
+                        <div className="mb-4">
+                      <label className="block text-sm font-semibold text-gray-700 mb-1.5">Class code 1 (+ % of operations)</label>
+                      <input type="text" name="class_code_1" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                    </div>
+                        <div className="mb-4">
+                      <label className="block text-sm font-semibold text-gray-700 mb-1.5">Class code 2 (+ % of operations)</label>
+                      <input type="text" name="class_code_2" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                    </div>
+                      </div>
+                      <div className="grid sm:grid-cols-2 gap-4">
+                        <div className="mb-4">
+                      <label className="block text-sm font-semibold text-gray-700 mb-1.5">Class code 3 (+ % of operations)</label>
+                      <input type="text" name="class_code_3" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                    </div>
+                        <div className="mb-4">
+                      <label className="block text-sm font-semibold text-gray-700 mb-1.5">Class code 4 (+ % of operations)</label>
+                      <input type="text" name="class_code_4" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                    </div>
+                      </div>
+                      <div className="mb-4">
+                      <label className="block text-sm font-semibold text-gray-700 mb-1.5">Class code 5 (+ % of operations)</label>
+                      <input type="text" name="class_code_5" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                    </div>
+                    </div>
+                    <div className="space-y-4 pt-5 border-t border-adobe">
+                      <div>
+                        <h3 className="font-bold text-lg mb-5">Coverages requested</h3>
+                        <p className="text-xs text-mocha/70 mt-0.5">Tick every line you want quoted.</p>
+                      </div>
+                      <div className="mb-4">
+                      <label className="block text-sm font-semibold text-gray-700 mb-1.5">Coverages requested (checkboxes)</label>
+                      <label className="inline-flex items-center gap-2 mr-4"><input type="checkbox" name="coverage_types" value="General liability" /><span>General liability</span></label>
+                      <label className="inline-flex items-center gap-2 mr-4"><input type="checkbox" name="coverage_types" value="Commercial auto" /><span>Commercial auto</span></label>
+                      <label className="inline-flex items-center gap-2 mr-4"><input type="checkbox" name="coverage_types" value="Workers compensation" /><span>Workers compensation</span></label>
+                      <label className="inline-flex items-center gap-2 mr-4"><input type="checkbox" name="coverage_types" value="Umbrella / excess" /><span>Umbrella / excess</span></label>
+                      <label className="inline-flex items-center gap-2 mr-4"><input type="checkbox" name="coverage_types" value="Pollution liability" /><span>Pollution liability</span></label>
+                      <label className="inline-flex items-center gap-2 mr-4"><input type="checkbox" name="coverage_types" value="Professional liability" /><span>Professional liability</span></label>
+                    </div>
+                    </div>
+                    <div className="space-y-4 pt-5 border-t border-adobe">
+                      <div>
+                        <h3 className="font-bold text-lg mb-5">Prior policy</h3>
+                        <p className="text-xs text-mocha/70 mt-0.5">Your expiring or most recent policy.</p>
+                      </div>
+                      <div className="grid sm:grid-cols-2 gap-4">
+                        <div className="mb-4">
+                      <label className="block text-sm font-semibold text-gray-700 mb-1.5">Prior insurance carrier name</label>
+                      <input type="text" name="prior_carrier_name" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                    </div>
+                        <div className="mb-4">
+                      <label className="block text-sm font-semibold text-gray-700 mb-1.5">Prior policy number</label>
+                      <input type="text" name="prior_policy_number" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                    </div>
+                      </div>
+                      <div className="mb-4">
+                      <label className="block text-sm font-semibold text-gray-700 mb-1.5">Prior policy expiration date</label>
+                      <input type="date" name="prior_policy_expiration" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                    </div>
+                    </div>
+
                     {error && (
                       <p className="text-red-600 text-sm bg-red-50 border border-red-200 rounded-lg px-4 py-3 mb-4">
                         {error}
                       </p>
                     )}
 
+                    <p className="text-xs text-gray-400 text-center mt-4">
+                      By submitting, you agree to be contacted by Contractors
+                      Choice Agency. No spam — ever.
+                    </p>
                     <button
                       type="submit"
                       disabled={submitting}
@@ -391,134 +586,7 @@ export default function QuotePage() {
                       )}
                     </button>
 
-                    <p className="text-xs text-gray-400 text-center mt-4">
-                      By submitting, you agree to be contacted by Contractors
-                      Choice Agency. No spam — ever.
-                    </p>
-                  
-        {/* complete contractor field set — forms-required-fields.json */}
-        <div className="mb-4">
-          <label className="block text-sm font-bold mb-1">Street address</label>
-          <input type="text" name="street_address" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
-        </div>
-        <div className="mb-4">
-          <label className="block text-sm font-bold mb-1">City</label>
-          <input type="text" name="city" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
-        </div>
-        <div className="mb-4">
-          <label className="block text-sm font-bold mb-1">ZIP code</label>
-          <input type="text" name="zip" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
-        </div>
-        <div className="mb-4">
-          <label className="block text-sm font-bold mb-1">Prior year gross sales</label>
-          <input type="text" name="prior_year_gross_sales" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
-        </div>
-        <div className="mb-4">
-          <label className="block text-sm font-bold mb-1">Prior year subcontractor expenses</label>
-          <input type="text" name="prior_year_subcontractor_expenses" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
-        </div>
-        <div className="mb-4">
-          <label className="block text-sm font-bold mb-1">Prior year employee count</label>
-          <input type="number" name="prior_year_employee_count" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
-        </div>
-        <div className="mb-4">
-          <label className="block text-sm font-bold mb-1">Prior year employee payroll</label>
-          <input type="text" name="prior_year_employee_payroll" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
-        </div>
-        <div className="mb-4">
-          <label className="block text-sm font-bold mb-1">Estimated gross sales (next 12 months)</label>
-          <input type="text" name="estimated_gross_sales" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
-        </div>
-        <div className="mb-4">
-          <label className="block text-sm font-bold mb-1">Estimated subcontractor expenses (next 12 months)</label>
-          <input type="text" name="estimated_subcontractor_expenses" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
-        </div>
-        <div className="mb-4">
-          <label className="block text-sm font-bold mb-1">Estimated employee count (year total)</label>
-          <input type="number" name="estimated_employee_count" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
-        </div>
-        <div className="mb-4">
-          <label className="block text-sm font-bold mb-1">Estimated employee annual payroll</label>
-          <input type="text" name="estimated_employee_payroll" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
-        </div>
-        <div className="mb-4">
-          <label className="block text-sm font-bold mb-1">Estimated material costs</label>
-          <input type="text" name="estimated_material_costs" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
-        </div>
-        <div className="mb-4">
-          <label className="block text-sm font-bold mb-1">Do your subcontractors have insurance?</label>
-          <select name="subcontractors_have_insurance" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow"><option value="">Select...</option><option value="Yes">Yes</option><option value="No">No</option></select>
-        </div>
-        <div className="mb-4">
-          <label className="block text-sm font-bold mb-1">What percent of your subcontractors have insurance?</label>
-          <input type="number" name="percent_subcontractors_insured" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
-        </div>
-        <div className="mb-4">
-          <label className="block text-sm font-bold mb-1">Do you need coverage for uninsured subcontractors?</label>
-          <select name="coverage_for_uninsured_subcontractors" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow"><option value="">Select...</option><option value="Yes">Yes</option><option value="No">No</option></select>
-        </div>
-        <div className="mb-4">
-          <label className="block text-sm font-bold mb-1">Coverages requested (checkboxes)</label>
-          <label className="inline-flex items-center gap-2 mr-4"><input type="checkbox" name="coverage_types" value="General liability" /><span>General liability</span></label>
-          <label className="inline-flex items-center gap-2 mr-4"><input type="checkbox" name="coverage_types" value="Commercial auto" /><span>Commercial auto</span></label>
-          <label className="inline-flex items-center gap-2 mr-4"><input type="checkbox" name="coverage_types" value="Workers compensation" /><span>Workers compensation</span></label>
-          <label className="inline-flex items-center gap-2 mr-4"><input type="checkbox" name="coverage_types" value="Umbrella / excess" /><span>Umbrella / excess</span></label>
-          <label className="inline-flex items-center gap-2 mr-4"><input type="checkbox" name="coverage_types" value="Pollution liability" /><span>Pollution liability</span></label>
-          <label className="inline-flex items-center gap-2 mr-4"><input type="checkbox" name="coverage_types" value="Professional liability" /><span>Professional liability</span></label>
-        </div>
-        <div className="mb-4">
-          <label className="block text-sm font-bold mb-1">Year business started</label>
-          <input type="number" name="year_business_started" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
-        </div>
-        <div className="mb-4">
-          <label className="block text-sm font-bold mb-1">Description of business</label>
-          <textarea name="business_description" rows={3} className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow"></textarea>
-        </div>
-        <div className="mb-4">
-          <label className="block text-sm font-bold mb-1">Class code 1 (+ % of operations)</label>
-          <input type="text" name="class_code_1" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
-        </div>
-        <div className="mb-4">
-          <label className="block text-sm font-bold mb-1">Class code 2 (+ % of operations)</label>
-          <input type="text" name="class_code_2" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
-        </div>
-        <div className="mb-4">
-          <label className="block text-sm font-bold mb-1">Class code 3 (+ % of operations)</label>
-          <input type="text" name="class_code_3" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
-        </div>
-        <div className="mb-4">
-          <label className="block text-sm font-bold mb-1">Class code 4 (+ % of operations)</label>
-          <input type="text" name="class_code_4" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
-        </div>
-        <div className="mb-4">
-          <label className="block text-sm font-bold mb-1">Class code 5 (+ % of operations)</label>
-          <input type="text" name="class_code_5" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
-        </div>
-        <div className="mb-4">
-          <label className="block text-sm font-bold mb-1">Residential vs commercial split</label>
-          <input type="text" name="residential_vs_commercial" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
-        </div>
-        <div className="mb-4">
-          <label className="block text-sm font-bold mb-1">New construction vs existing / remodel</label>
-          <input type="text" name="new_vs_existing_construction" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
-        </div>
-        <div className="mb-4">
-          <label className="block text-sm font-bold mb-1">5 largest projects ever (description + dollar amount)</label>
-          <textarea name="largest_projects" rows={3} className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow"></textarea>
-        </div>
-        <div className="mb-4">
-          <label className="block text-sm font-bold mb-1">Prior insurance carrier name</label>
-          <input type="text" name="prior_carrier_name" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
-        </div>
-        <div className="mb-4">
-          <label className="block text-sm font-bold mb-1">Prior policy number</label>
-          <input type="text" name="prior_policy_number" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
-        </div>
-        <div className="mb-4">
-          <label className="block text-sm font-bold mb-1">Prior policy expiration date</label>
-          <input type="date" name="prior_policy_expiration" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
-        </div>
-</motion.form>
+                    </motion.form>
                 )}
               </AnimatePresence>
             </div>
