@@ -90,7 +90,7 @@ export default function ContactPage() {
                         Office Address
                       </div>
                       <div className="text-gray-600">
-                        12220 E Riggs Rd, Suite #105
+                        12220 E Riggs Rd, Suite #104
                         <br />
                         Chandler, AZ 85249
                       </div>
