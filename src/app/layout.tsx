@@ -64,9 +64,6 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  alternates: {
-    canonical: "https://pipelinerinsurance.com",
-  },
 };
 
 const jsonLd = {
