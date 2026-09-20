@@ -159,7 +159,7 @@ export default async function BlogPostPage({ params }: Props) {
       url: "https://contractorschoiceagency.com",
       logo: {
         "@type": "ImageObject",
-        url: "https://pipelinerinsurance.com/logo.png",
+        url: "https://contractorschoiceagency.com/images/logo/CCA-logo-grey.webp",
       },
     },
   };

@@ -77,7 +77,6 @@ const jsonLd = {
   description:
     "Specialized insurance for pipeline contractors including general liability, workers compensation, pollution liability, and commercial auto. Licensed in all 50 states.",
   url: "https://pipelinerinsurance.com",
-  logo: "https://pipelinerinsurance.com/logo.png",
   image: "https://pipelinerinsurance.com/og-image.jpg",
   telephone: "844-967-5247",
   email: "josh@contractorschoiceagency.com",
