@@ -20,9 +20,10 @@ export async function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: { coverage: string };
+  params: Promise<{ coverage: string }>;
 }): Promise<Metadata> {
-  const dataSlug = paramToSlug[params.coverage] ?? params.coverage;
+  const { coverage: param } = await params;
+  const dataSlug = paramToSlug[param] ?? param;
   const coverage = getCoverageBySlug(dataSlug);
   if (!coverage) return {};
   return {
@@ -31,8 +32,9 @@ export async function generateMetadata({
   };
 }
 
-export default function CoveragePage({ params }: { params: { coverage: string } }) {
-  const dataSlug = paramToSlug[params.coverage] ?? params.coverage;
+export default async function CoveragePage({ params }: { params: Promise<{ coverage: string }> }) {
+  const { coverage: param } = await params;
+  const dataSlug = paramToSlug[param] ?? param;
   const coverage = getCoverageBySlug(dataSlug);
 
   if (!coverage) {
