@@ -121,30 +121,6 @@ const steps = [
   },
 ];
 
-const testimonials = [
-  {
-    quote:
-      "Finally an agent who actually understands pipeline work. Got our GL and pollution liability sorted in under 20 minutes.",
-    name: "Marcus T.",
-    company: "Oil Pipeline Contractor",
-    location: "Texas",
-  },
-  {
-    quote:
-      "Workers comp for pipeline crews is a nightmare to find. CCA had options we couldn't get anywhere else.",
-    name: "Sarah K.",
-    company: "Pipeline Services LLC",
-    location: "Wyoming",
-  },
-  {
-    quote:
-      "Best pricing we've found after 8 years in the business. Responsive and knowledgeable.",
-    name: "Dave R.",
-    company: "Underground Utilities",
-    location: "Oklahoma",
-  },
-];
-
 export default function HomeClient() {
   return (
     <>
