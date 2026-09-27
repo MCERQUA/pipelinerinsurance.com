@@ -24,7 +24,7 @@ export default function ContactPage() {
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
               Talk to a Pipeline Insurance Specialist
             </h1>
-            <p className="text-xl text-blue-200 max-w-2xl mx-auto">
+            <p className="text-xl text-orange-200 max-w-2xl mx-auto">
               Reach a real specialist — not a call center. We respond fast
               because your time is valuable.
             </p>
@@ -45,7 +45,7 @@ export default function ContactPage() {
                 </h2>
                 <div className="space-y-5">
                   <div className="flex items-start gap-4">
-                    <div className="w-11 h-11 bg-blue-50 rounded-xl flex items-center justify-center shrink-0">
+                    <div className="w-11 h-11 bg-orange-50 rounded-xl flex items-center justify-center shrink-0">
                       <Phone className="w-5 h-5 text-[#7C3C17]" />
                     </div>
                     <div>
@@ -54,7 +54,7 @@ export default function ContactPage() {
                       </div>
                       <a
                         href="tel:844-967-5247"
-                        className="text-[#7C3C17] hover:text-blue-700 font-medium text-lg"
+                        className="text-[#7C3C17] hover:text-orange-800 font-medium text-lg"
                       >
                         844-967-5247
                       </a>
@@ -65,7 +65,7 @@ export default function ContactPage() {
                   </div>
 
                   <div className="flex items-start gap-4">
-                    <div className="w-11 h-11 bg-blue-50 rounded-xl flex items-center justify-center shrink-0">
+                    <div className="w-11 h-11 bg-orange-50 rounded-xl flex items-center justify-center shrink-0">
                       <Mail className="w-5 h-5 text-[#7C3C17]" />
                     </div>
                     <div>
@@ -74,7 +74,7 @@ export default function ContactPage() {
                       </div>
                       <a
                         href="mailto:josh@contractorschoiceagency.com"
-                        className="text-[#7C3C17] hover:text-blue-700 font-medium"
+                        className="text-[#7C3C17] hover:text-orange-800 font-medium"
                       >
                         josh@contractorschoiceagency.com
                       </a>
@@ -82,7 +82,7 @@ export default function ContactPage() {
                   </div>
 
                   <div className="flex items-start gap-4">
-                    <div className="w-11 h-11 bg-blue-50 rounded-xl flex items-center justify-center shrink-0">
+                    <div className="w-11 h-11 bg-orange-50 rounded-xl flex items-center justify-center shrink-0">
                       <MapPin className="w-5 h-5 text-[#7C3C17]" />
                     </div>
                     <div>
@@ -98,7 +98,7 @@ export default function ContactPage() {
                   </div>
 
                   <div className="flex items-start gap-4">
-                    <div className="w-11 h-11 bg-blue-50 rounded-xl flex items-center justify-center shrink-0">
+                    <div className="w-11 h-11 bg-orange-50 rounded-xl flex items-center justify-center shrink-0">
                       <Clock className="w-5 h-5 text-[#7C3C17]" />
                     </div>
                     <div>
@@ -136,7 +136,7 @@ export default function ContactPage() {
               {/* Quick stats */}
               <div className="bg-[#7C3C17] rounded-2xl p-6 text-white">
                 <h3 className="font-bold text-lg mb-4">What to Expect</h3>
-                <ul className="space-y-3 text-blue-200 text-sm">
+                <ul className="space-y-3 text-orange-200 text-sm">
                   <li className="flex items-start gap-2">
                     <span className="text-[#f97316] font-bold">•</span>
                     We respond to all inquiries within 1 business hour

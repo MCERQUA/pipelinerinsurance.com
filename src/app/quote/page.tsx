@@ -124,7 +124,7 @@ export default function QuotePage() {
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
               Get a Pipeline Contractor Insurance Quote
             </h1>
-            <p className="text-xl text-blue-200 max-w-2xl mx-auto">
+            <p className="text-xl text-orange-200 max-w-2xl mx-auto">
               Most quotes are ready in{" "}
               <span className="text-white font-semibold">15 minutes</span>.
               No obligation. No spam. Just fast, accurate coverage options from a
@@ -157,7 +157,7 @@ export default function QuotePage() {
                     </p>
                     <a
                       href="tel:844-967-5247"
-                      className="inline-flex items-center gap-2 bg-[#7C3C17] hover:bg-blue-800 text-white font-semibold px-8 py-4 rounded-xl transition-colors text-lg mb-4"
+                      className="inline-flex items-center gap-2 bg-[#7C3C17] hover:bg-orange-900 text-white font-semibold px-8 py-4 rounded-xl transition-colors text-lg mb-4"
                     >
                       <Phone className="w-5 h-5" />
                       844-967-5247
@@ -254,7 +254,7 @@ export default function QuotePage() {
                           name="phone"
                           type="tel"
                           required
-                          placeholder="(602) 555-0100"
+                          placeholder="Best number to reach you"
                           className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow"
                         />
                       </div>
@@ -609,7 +609,7 @@ export default function QuotePage() {
                           <div className="font-semibold text-sm mb-0.5">
                             {point.title}
                           </div>
-                          <div className="text-blue-200 text-sm leading-relaxed">
+                          <div className="text-orange-200 text-sm leading-relaxed">
                             {point.desc}
                           </div>
                         </div>
@@ -626,7 +626,7 @@ export default function QuotePage() {
                 </div>
                 <a
                   href="tel:844-967-5247"
-                  className="text-[#7C3C17] text-2xl font-bold hover:text-blue-700 transition-colors block mb-1"
+                  className="text-[#7C3C17] text-2xl font-bold hover:text-orange-800 transition-colors block mb-1"
                 >
                   844-967-5247
                 </a>

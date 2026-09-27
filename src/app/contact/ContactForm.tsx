@@ -158,7 +158,7 @@ export default function ContactForm() {
                   id="phone"
                   name="phone"
                   type="tel"
-                  placeholder="(602) 555-0100"
+                  placeholder="Best number to reach you"
                   className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow"
                 />
               </div>

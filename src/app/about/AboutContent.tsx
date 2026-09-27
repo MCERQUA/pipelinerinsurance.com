@@ -56,7 +56,7 @@ export default function AboutContent() {
             <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
               Pipeline Insurance Specialists Since 2005
             </h1>
-            <p className="text-xl text-blue-200 max-w-2xl mx-auto">
+            <p className="text-xl text-orange-200 max-w-2xl mx-auto">
               We built pipelines before we insured them. That hands-on experience
               means we know exactly what your crews face — and what coverage they
               actually need.
@@ -80,7 +80,7 @@ export default function AboutContent() {
                 variants={fadeUp}
                 className="text-center"
               >
-                <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center mx-auto mb-3">
+                <div className="w-12 h-12 bg-orange-50 rounded-xl flex items-center justify-center mx-auto mb-3">
                   <Icon className="w-6 h-6 text-[#7C3C17]" />
                 </div>
                 <div className="text-3xl font-bold text-[#7C3C17] mb-1">
@@ -152,7 +152,7 @@ export default function AboutContent() {
               </div>
               <div>
                 <div className="font-bold text-lg">Josh Cotner</div>
-                <div className="text-blue-200 text-sm">
+                <div className="text-orange-200 text-sm">
                   Commercial Insurance Specialist
                 </div>
               </div>
@@ -167,7 +167,7 @@ export default function AboutContent() {
               ].map((item) => (
                 <div key={item} className="flex gap-3">
                   <Star className="w-5 h-5 text-[#f97316] shrink-0 mt-0.5" />
-                  <span className="text-blue-100">{item}</span>
+                  <span className="text-orange-100">{item}</span>
                 </div>
               ))}
             </div>
@@ -184,7 +184,7 @@ export default function AboutContent() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <div className="w-14 h-14 bg-blue-50 rounded-2xl flex items-center justify-center mx-auto mb-6">
+            <div className="w-14 h-14 bg-orange-50 rounded-2xl flex items-center justify-center mx-auto mb-6">
               <Shield className="w-7 h-7 text-[#7C3C17]" />
             </div>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
@@ -249,10 +249,10 @@ export default function AboutContent() {
           >
             <Clock className="w-8 h-8 text-[#f97316] mb-4" />
             <div className="text-4xl font-bold mb-2">15 Min</div>
-            <div className="text-blue-200 font-medium mb-3">
+            <div className="text-orange-200 font-medium mb-3">
               Quote Turnaround
             </div>
-            <p className="text-blue-200 text-sm leading-relaxed">
+            <p className="text-orange-200 text-sm leading-relaxed">
               Most pipeline contractor submissions receive a quote within 15
               minutes during business hours. No waiting days for a number.
             </p>
@@ -266,10 +266,10 @@ export default function AboutContent() {
           >
             <Phone className="w-8 h-8 text-[#f97316] mb-4" />
             <div className="text-4xl font-bold mb-2">2 Hours</div>
-            <div className="text-blue-200 font-medium mb-3">
+            <div className="text-orange-200 font-medium mb-3">
               Claims Response SLA
             </div>
-            <p className="text-blue-200 text-sm leading-relaxed">
+            <p className="text-orange-200 text-sm leading-relaxed">
               We guarantee a 2-hour response on all claims, 24 hours a day, 7
               days a week. Your crews don't stop at 5 PM and neither do we.
             </p>
@@ -302,7 +302,7 @@ export default function AboutContent() {
               </Link>
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center bg-white border-2 border-[#7C3C17] text-[#7C3C17] hover:bg-blue-50 font-semibold px-8 py-4 rounded-xl transition-colors duration-200 text-lg"
+                className="inline-flex items-center justify-center bg-white border-2 border-[#7C3C17] text-[#7C3C17] hover:bg-orange-50 font-semibold px-8 py-4 rounded-xl transition-colors duration-200 text-lg"
               >
                 Contact Us
               </Link>

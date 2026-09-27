@@ -201,7 +201,7 @@ export default function HomeClient() {
                 </Link>
                 <a
                   href="tel:8449675247"
-                  className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-lg font-semibold border-2 transition-colors hover:bg-blue-50"
+                  className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-lg font-semibold border-2 transition-colors hover:bg-orange-50"
                   style={{ borderColor: "#7C3C17", color: "#7C3C17" }}
                 >
                   <Phone size={18} /> Call 844-967-5247
