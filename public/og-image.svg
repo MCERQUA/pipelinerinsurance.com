@@ -3,7 +3,7 @@
   <defs>
     <linearGradient id="bgGrad" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#7C3C17"/>
-      <stop offset="100%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1c1917"/>
     </linearGradient>
     <linearGradient id="pipeGrad" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#fb923c"/>
@@ -60,7 +60,7 @@
 
   <!-- Subtitle -->
   <text x="90" y="510" font-family="'Arial', 'Helvetica Neue', sans-serif"
-        font-size="28" font-weight="400" fill="#94a3b8" letter-spacing="0.5">
+        font-size="28" font-weight="400" fill="#a8a29e" letter-spacing="0.5">
     Specialized Coverage for Oil, Gas &amp; Underground Pipeline Contractors
   </text>
 
@@ -69,13 +69,13 @@
 
   <!-- Domain name at bottom -->
   <text x="90" y="590" font-family="'Arial', 'Helvetica Neue', sans-serif"
-        font-size="26" font-weight="600" fill="#64748b" letter-spacing="1">
+        font-size="26" font-weight="600" fill="#78716c" letter-spacing="1">
     PipelineInsurance.com
   </text>
 
   <!-- Phone number -->
   <text x="700" y="590" font-family="'Arial', 'Helvetica Neue', sans-serif"
-        font-size="24" font-weight="500" fill="#475569" letter-spacing="0.5">
+        font-size="24" font-weight="500" fill="#57534e" letter-spacing="0.5">
     844-967-5247  |  All 50 States
   </text>
 

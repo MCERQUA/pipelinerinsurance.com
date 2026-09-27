@@ -55,7 +55,7 @@ export default function Navbar() {
               <span className="text-[#7C3C17] font-bold text-base tracking-tight">
                 Pipeline<span className="text-[#f97316]">Insurance</span>
               </span>
-              <span className="text-[#64748b] text-[10px] tracking-wide uppercase font-medium hidden sm:block">
+              <span className="text-[#78716c] text-[10px] tracking-wide uppercase font-medium hidden sm:block">
                 Powered by Contractors Choice
               </span>
             </div>
@@ -69,7 +69,7 @@ export default function Navbar() {
                   <button
                     onClick={() => toggleDropdown(link.label)}
                     onBlur={() => setTimeout(() => setOpenDropdown(null), 150)}
-                    className="flex items-center gap-1 px-3 py-2 text-sm font-medium text-[#0f172a] hover:text-[#7C3C17] transition-colors rounded-md hover:bg-[#FBF6EE]"
+                    className="flex items-center gap-1 px-3 py-2 text-sm font-medium text-[#1c1917] hover:text-[#7C3C17] transition-colors rounded-md hover:bg-[#FBF6EE]"
                   >
                     {link.label}
                     <ChevronDown
@@ -92,7 +92,7 @@ export default function Navbar() {
                           <Link
                             key={child.href}
                             href={child.href}
-                            className="block px-4 py-2 text-sm text-[#334155] hover:text-[#7C3C17] hover:bg-[#FBF6EE] transition-colors"
+                            className="block px-4 py-2 text-sm text-[#44403c] hover:text-[#7C3C17] hover:bg-[#FBF6EE] transition-colors"
                             onClick={() => setOpenDropdown(null)}
                           >
                             {child.label}
@@ -106,7 +106,7 @@ export default function Navbar() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="px-3 py-2 text-sm font-medium text-[#0f172a] hover:text-[#7C3C17] transition-colors rounded-md hover:bg-[#FBF6EE]"
+                  className="px-3 py-2 text-sm font-medium text-[#1c1917] hover:text-[#7C3C17] transition-colors rounded-md hover:bg-[#FBF6EE]"
                 >
                   {link.label}
                 </Link>
@@ -133,7 +133,7 @@ export default function Navbar() {
           {/* Mobile Hamburger */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="lg:hidden p-2 rounded-lg text-[#0f172a] hover:bg-[#FBF6EE] transition-colors"
+            className="lg:hidden p-2 rounded-lg text-[#1c1917] hover:bg-[#FBF6EE] transition-colors"
             aria-label="Toggle menu"
           >
             {isOpen ? <X size={22} /> : <Menu size={22} />}
@@ -157,7 +157,7 @@ export default function Navbar() {
                   <div key={link.label}>
                     <button
                       onClick={() => toggleDropdown(link.label)}
-                      className="flex items-center justify-between w-full px-3 py-2.5 text-sm font-medium text-[#0f172a] hover:text-[#7C3C17] hover:bg-[#FBF6EE] rounded-lg transition-colors"
+                      className="flex items-center justify-between w-full px-3 py-2.5 text-sm font-medium text-[#1c1917] hover:text-[#7C3C17] hover:bg-[#FBF6EE] rounded-lg transition-colors"
                     >
                       {link.label}
                       <ChevronDown
@@ -179,7 +179,7 @@ export default function Navbar() {
                             <Link
                               key={child.href}
                               href={child.href}
-                              className="block px-3 py-2 text-sm text-[#475569] hover:text-[#7C3C17] hover:bg-[#FBF6EE] rounded-lg transition-colors"
+                              className="block px-3 py-2 text-sm text-[#57534e] hover:text-[#7C3C17] hover:bg-[#FBF6EE] rounded-lg transition-colors"
                               onClick={() => {
                                 setIsOpen(false);
                                 setOpenDropdown(null);
@@ -196,7 +196,7 @@ export default function Navbar() {
                   <Link
                     key={link.href}
                     href={link.href}
-                    className="block px-3 py-2.5 text-sm font-medium text-[#0f172a] hover:text-[#7C3C17] hover:bg-[#FBF6EE] rounded-lg transition-colors"
+                    className="block px-3 py-2.5 text-sm font-medium text-[#1c1917] hover:text-[#7C3C17] hover:bg-[#FBF6EE] rounded-lg transition-colors"
                     onClick={() => setIsOpen(false)}
                   >
                     {link.label}

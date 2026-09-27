@@ -84,7 +84,7 @@ export default function CoveragesPage() {
       <Navbar />
 
       {/* Hero */}
-      <section className="relative bg-[#0f172a] overflow-hidden">
+      <section className="relative bg-[#1c1917] overflow-hidden">
         <div
           className="absolute inset-0 opacity-10"
           style={{
@@ -104,7 +104,7 @@ export default function CoveragesPage() {
               Pipeline Contractor{" "}
               <span className="text-[#f97316]">Coverage Options</span>
             </h1>
-            <p className="text-[#94a3b8] text-lg leading-relaxed mb-8 max-w-2xl">
+            <p className="text-[#a8a29e] text-lg leading-relaxed mb-8 max-w-2xl">
               From general liability to pollution coverage, we offer every type of insurance
               pipeline contractors need — placed with carriers who understand your work.
               All 50 states. 15-minute quotes.
@@ -150,13 +150,13 @@ export default function CoveragesPage() {
       </div>
 
       {/* Coverage Grid */}
-      <section className="flex-1 py-16 lg:py-24 bg-[#f8fafc]">
+      <section className="flex-1 py-16 lg:py-24 bg-[#fafaf9]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-[#0f172a] mb-4">
+            <h2 className="text-3xl lg:text-4xl font-bold text-[#1c1917] mb-4">
               Coverage Built for Pipeline Work
             </h2>
-            <p className="text-[#475569] text-lg max-w-2xl mx-auto">
+            <p className="text-[#57534e] text-lg max-w-2xl mx-auto">
               Each policy is tailored to the specific exposures of pipeline construction,
               installation, and maintenance — not a generic contractor package.
             </p>
@@ -182,17 +182,17 @@ export default function CoveragesPage() {
                   </div>
 
                   {/* Content */}
-                  <h3 className="text-lg font-bold text-[#0f172a] mb-2 group-hover:text-[#7C3C17] transition-colors">
+                  <h3 className="text-lg font-bold text-[#1c1917] mb-2 group-hover:text-[#7C3C17] transition-colors">
                     {coverage.shortTitle}
                   </h3>
-                  <p className="text-[#475569] text-sm leading-relaxed mb-5 flex-1">
+                  <p className="text-[#57534e] text-sm leading-relaxed mb-5 flex-1">
                     {coverage.description}
                   </p>
 
                   {/* Key coverages preview */}
                   <ul className="space-y-1.5 mb-6">
                     {coverage.whatsCovered.slice(0, 3).map((item) => (
-                      <li key={item} className="flex items-start gap-2 text-xs text-[#64748b]">
+                      <li key={item} className="flex items-start gap-2 text-xs text-[#78716c]">
                         <CheckCircle
                           size={12}
                           className={`flex-shrink-0 mt-0.5 ${colors.text}`}
@@ -201,7 +201,7 @@ export default function CoveragesPage() {
                       </li>
                     ))}
                     {coverage.whatsCovered.length > 3 && (
-                      <li className="text-xs text-[#94a3b8] pl-4">
+                      <li className="text-xs text-[#a8a29e] pl-4">
                         +{coverage.whatsCovered.length - 3} more coverages
                       </li>
                     )}
@@ -232,17 +232,17 @@ export default function CoveragesPage() {
                   Why Contractors Choose Us
                 </span>
               </div>
-              <h2 className="text-3xl lg:text-4xl font-bold text-[#0f172a] mb-5">
+              <h2 className="text-3xl lg:text-4xl font-bold text-[#1c1917] mb-5">
                 Pipeline Insurance Specialists —{" "}
                 <span className="text-[#7C3C17]">Not Generalists</span>
               </h2>
-              <p className="text-[#475569] text-base leading-relaxed mb-6">
+              <p className="text-[#57534e] text-base leading-relaxed mb-6">
                 Most insurance brokers treat pipeline contractors like any other construction
                 trade. We don't. We know the difference between HDD and conventional open-cut
                 installations, the class codes that matter, and the carriers who will actually
                 compete for your business.
               </p>
-              <p className="text-[#475569] text-base leading-relaxed mb-8">
+              <p className="text-[#57534e] text-base leading-relaxed mb-8">
                 Contractors Choice Agency has placed commercial insurance for contractors since
                 2005. Our pipeline specialty practice means you get a broker who speaks your
                 language — from midstream operations to fiber-optic conduit installation.
@@ -265,10 +265,10 @@ export default function CoveragesPage() {
               ].map(({ stat, label }) => (
                 <div
                   key={label}
-                  className="bg-[#f8fafc] rounded-2xl border border-[rgba(124,60,23,0.1)] p-6 text-center"
+                  className="bg-[#fafaf9] rounded-2xl border border-[rgba(124,60,23,0.1)] p-6 text-center"
                 >
                   <div className="text-3xl font-bold text-[#7C3C17] mb-1">{stat}</div>
-                  <div className="text-sm text-[#64748b] font-medium">{label}</div>
+                  <div className="text-sm text-[#78716c] font-medium">{label}</div>
                 </div>
               ))}
             </div>
@@ -277,12 +277,12 @@ export default function CoveragesPage() {
       </section>
 
       {/* Bottom CTA */}
-      <section className="bg-[#0f172a] py-14 lg:py-16">
+      <section className="bg-[#1c1917] py-14 lg:py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">
             Ready to Get Covered?
           </h2>
-          <p className="text-[#94a3b8] text-lg mb-8">
+          <p className="text-[#a8a29e] text-lg mb-8">
             Talk to a pipeline insurance specialist today. We quote fast and we know your trade.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">

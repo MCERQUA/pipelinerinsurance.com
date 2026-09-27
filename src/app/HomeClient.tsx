@@ -152,7 +152,7 @@ export default function HomeClient() {
               <motion.h1
                 variants={fadeInUp}
                 className="text-4xl lg:text-5xl font-bold leading-tight mb-5"
-                style={{ color: "#0f172a" }}
+                style={{ color: "#1c1917" }}
               >
                 Pipeline Contractor Insurance{" "}
                 <span style={{ color: "#7C3C17" }}>Built for the Field</span>
@@ -227,7 +227,7 @@ export default function HomeClient() {
       </section>
 
       {/* TRUST BAR */}
-      <section style={{ backgroundColor: "#0f172a" }} className="py-10 px-4">
+      <section style={{ backgroundColor: "#1c1917" }} className="py-10 px-4">
         <div className="max-w-5xl mx-auto">
           <motion.div
             variants={staggerContainer}
@@ -266,7 +266,7 @@ export default function HomeClient() {
             variants={staggerContainer}
           >
             <motion.div variants={fadeInUp} className="text-center mb-12">
-              <h2 className="text-3xl font-bold mb-3" style={{ color: "#0f172a" }}>
+              <h2 className="text-3xl font-bold mb-3" style={{ color: "#1c1917" }}>
                 Coverage Built for Pipeline Contractors
               </h2>
               <p className="text-gray-500 max-w-xl mx-auto">
@@ -290,7 +290,7 @@ export default function HomeClient() {
                     >
                       <Icon size={22} style={{ color: "#f97316" }} />
                     </div>
-                    <h3 className="text-lg font-semibold mb-2" style={{ color: "#0f172a" }}>
+                    <h3 className="text-lg font-semibold mb-2" style={{ color: "#1c1917" }}>
                       {coverage.title}
                     </h3>
                     <p className="text-gray-500 text-sm mb-4 leading-relaxed">
@@ -312,7 +312,7 @@ export default function HomeClient() {
       </section>
 
       {/* WHY CHOOSE US */}
-      <section className="py-20 px-4" style={{ backgroundColor: "#f8fafc" }}>
+      <section className="py-20 px-4" style={{ backgroundColor: "#fafaf9" }}>
         <div className="max-w-5xl mx-auto">
           <motion.div
             initial="hidden"
@@ -321,7 +321,7 @@ export default function HomeClient() {
             variants={staggerContainer}
           >
             <motion.div variants={fadeInUp} className="text-center mb-12">
-              <h2 className="text-3xl font-bold mb-3" style={{ color: "#0f172a" }}>
+              <h2 className="text-3xl font-bold mb-3" style={{ color: "#1c1917" }}>
                 Why Pipeline Contractors Choose Us
               </h2>
               <p className="text-gray-500 max-w-xl mx-auto">
@@ -341,7 +341,7 @@ export default function HomeClient() {
                     >
                       <Icon size={26} style={{ color: "#7C3C17" }} />
                     </div>
-                    <h3 className="text-lg font-semibold mb-3" style={{ color: "#0f172a" }}>
+                    <h3 className="text-lg font-semibold mb-3" style={{ color: "#1c1917" }}>
                       {item.title}
                     </h3>
                     <p className="text-gray-500 text-sm leading-relaxed">
@@ -365,7 +365,7 @@ export default function HomeClient() {
             variants={staggerContainer}
           >
             <motion.div variants={fadeInUp} className="text-center mb-10">
-              <h2 className="text-2xl font-bold mb-2" style={{ color: "#0f172a" }}>
+              <h2 className="text-2xl font-bold mb-2" style={{ color: "#1c1917" }}>
                 We Know the Work — From the Ground Up
               </h2>
               <p className="text-gray-500 max-w-xl mx-auto text-sm">
@@ -424,7 +424,7 @@ export default function HomeClient() {
             variants={staggerContainer}
           >
             <motion.div variants={fadeInUp} className="text-center mb-14">
-              <h2 className="text-3xl font-bold mb-3" style={{ color: "#0f172a" }}>
+              <h2 className="text-3xl font-bold mb-3" style={{ color: "#1c1917" }}>
                 How It Works
               </h2>
               <p className="text-gray-500">
@@ -454,7 +454,7 @@ export default function HomeClient() {
                     >
                       {step.number}
                     </div>
-                    <h3 className="text-lg font-semibold mb-2" style={{ color: "#0f172a" }}>
+                    <h3 className="text-lg font-semibold mb-2" style={{ color: "#1c1917" }}>
                       {step.title}
                     </h3>
                     <p className="text-gray-500 text-sm leading-relaxed">
@@ -490,7 +490,7 @@ export default function HomeClient() {
             <motion.div variants={fadeInUp} className="text-center mb-10">
               <div className="flex items-center justify-center gap-2 mb-3">
                 <MapPin size={22} style={{ color: "#7C3C17" }} />
-                <h2 className="text-3xl font-bold" style={{ color: "#0f172a" }}>
+                <h2 className="text-3xl font-bold" style={{ color: "#1c1917" }}>
                   Coverage in All 50 States
                 </h2>
               </div>
@@ -544,7 +544,7 @@ export default function HomeClient() {
               <Link
                 href="/quote"
                 className="inline-flex items-center gap-2 px-8 py-4 rounded-lg font-semibold bg-white transition-opacity hover:opacity-90"
-                style={{ color: "#0f172a" }}
+                style={{ color: "#1c1917" }}
               >
                 Start Your Free Quote <ArrowRight size={18} />
               </Link>

@@ -21,7 +21,7 @@ const coverageTypes = [
 
 export default function Footer() {
   return (
-    <footer className="bg-[#0f172a] text-white">
+    <footer className="bg-[#1c1917] text-white">
       {/* Main Footer */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 lg:py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
@@ -35,24 +35,24 @@ export default function Footer() {
                 <span className="text-white font-bold text-base tracking-tight">
                   Pipeline<span className="text-[#f97316]">Insurance</span>
                 </span>
-                <span className="text-[#64748b] text-[10px] tracking-wide uppercase font-medium">
+                <span className="text-[#78716c] text-[10px] tracking-wide uppercase font-medium">
                   by Contractors Choice
                 </span>
               </div>
             </Link>
-            <p className="text-[#94a3b8] text-sm leading-relaxed mb-5">
+            <p className="text-[#a8a29e] text-sm leading-relaxed mb-5">
               Pipeline contractors trust us for specialized insurance coverage built around
               the unique risks of pipeline construction, installation, and maintenance work.
             </p>
-            <div className="flex items-center gap-2 text-xs text-[#64748b]">
+            <div className="flex items-center gap-2 text-xs text-[#78716c]">
               <CheckCircle size={14} className="text-[#f97316] flex-shrink-0" />
               <span>Licensed in All 50 States</span>
             </div>
-            <div className="flex items-center gap-2 text-xs text-[#64748b] mt-1.5">
+            <div className="flex items-center gap-2 text-xs text-[#78716c] mt-1.5">
               <CheckCircle size={14} className="text-[#f97316] flex-shrink-0" />
               <span>20+ Years Pipeline Insurance Experience</span>
             </div>
-            <div className="flex items-center gap-2 text-xs text-[#64748b] mt-1.5">
+            <div className="flex items-center gap-2 text-xs text-[#78716c] mt-1.5">
               <CheckCircle size={14} className="text-[#f97316] flex-shrink-0" />
               <span>15-Minute Quote Turnaround</span>
             </div>
@@ -68,7 +68,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-[#94a3b8] text-sm hover:text-[#f97316] transition-colors"
+                    className="text-[#a8a29e] text-sm hover:text-[#f97316] transition-colors"
                   >
                     {link.label}
                   </Link>
@@ -87,7 +87,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-[#94a3b8] text-sm hover:text-[#f97316] transition-colors"
+                    className="text-[#a8a29e] text-sm hover:text-[#f97316] transition-colors"
                   >
                     {link.label}
                   </Link>
@@ -105,7 +105,7 @@ export default function Footer() {
               <li>
                 <a
                   href="tel:844-967-5247"
-                  className="flex items-start gap-3 text-[#94a3b8] text-sm hover:text-[#f97316] transition-colors group"
+                  className="flex items-start gap-3 text-[#a8a29e] text-sm hover:text-[#f97316] transition-colors group"
                 >
                   <Phone
                     size={15}
@@ -115,14 +115,14 @@ export default function Footer() {
                     <div className="font-medium text-white group-hover:text-[#f97316] transition-colors">
                       844-967-5247
                     </div>
-                    <div className="text-xs text-[#64748b] mt-0.5">24/7 Claims | 2-Hour Response</div>
+                    <div className="text-xs text-[#78716c] mt-0.5">24/7 Claims | 2-Hour Response</div>
                   </div>
                 </a>
               </li>
               <li>
                 <a
                   href="mailto:josh@contractorschoiceagency.com"
-                  className="flex items-start gap-3 text-[#94a3b8] text-sm hover:text-[#f97316] transition-colors group"
+                  className="flex items-start gap-3 text-[#a8a29e] text-sm hover:text-[#f97316] transition-colors group"
                 >
                   <Mail
                     size={15}
@@ -132,7 +132,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <div className="flex items-start gap-3 text-[#94a3b8] text-sm">
+                <div className="flex items-start gap-3 text-[#a8a29e] text-sm">
                   <MapPin
                     size={15}
                     className="flex-shrink-0 mt-0.5 text-[#7C3C17]"
@@ -140,7 +140,7 @@ export default function Footer() {
                   <div>
                     <div>12220 E Riggs Rd</div>
                     <div>Chandler, AZ 85249</div>
-                    <div className="text-xs text-[#64748b] mt-1">
+                    <div className="text-xs text-[#78716c] mt-1">
                       Also serving Phoenix, AZ &amp; Miami, FL
                     </div>
                   </div>
@@ -163,28 +163,28 @@ export default function Footer() {
       <div className="border-t border-[rgba(255,255,255,0.08)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
-            <p className="text-[#64748b] text-xs text-center sm:text-left">
+            <p className="text-[#78716c] text-xs text-center sm:text-left">
               &copy; {new Date().getFullYear()} Contractors Choice Agency. All rights reserved.{" "}
-              <span className="text-[#475569]">NPN: 8608479</span>
+              <span className="text-[#57534e]">NPN: 8608479</span>
             </p>
             <div className="flex items-center gap-4">
               <Link
                 href="/privacy-policy"
-                className="text-[#64748b] text-xs hover:text-[#94a3b8] transition-colors"
+                className="text-[#78716c] text-xs hover:text-[#a8a29e] transition-colors"
               >
                 Privacy Policy
               </Link>
-              <span className="text-[#334155]">|</span>
+              <span className="text-[#44403c]">|</span>
               <Link
                 href="/terms-of-service"
-                className="text-[#64748b] text-xs hover:text-[#94a3b8] transition-colors"
+                className="text-[#78716c] text-xs hover:text-[#a8a29e] transition-colors"
               >
                 Terms of Service
               </Link>
-              <span className="text-[#334155]">|</span>
+              <span className="text-[#44403c]">|</span>
               <Link
                 href="/sitemap.xml"
-                className="text-[#64748b] text-xs hover:text-[#94a3b8] transition-colors"
+                className="text-[#78716c] text-xs hover:text-[#a8a29e] transition-colors"
               >
                 Sitemap
               </Link>

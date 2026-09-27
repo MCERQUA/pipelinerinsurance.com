@@ -41,7 +41,7 @@ const categoryColors: Record<string, { bg: string; text: string }> = {
 };
 
 function getCategoryStyle(category: string) {
-  return categoryColors[category] ?? { bg: "bg-[#f8fafc]", text: "text-[#475569]" };
+  return categoryColors[category] ?? { bg: "bg-[#fafaf9]", text: "text-[#57534e]" };
 }
 
 function formatDate(dateStr: string) {
@@ -71,7 +71,7 @@ function renderContent(content: string) {
     elements.push(
       <ul key={key++} className="list-disc list-outside ml-5 space-y-1.5 my-4">
         {listBuffer.map((item, i) => (
-          <li key={i} className="text-[#334155] leading-relaxed">
+          <li key={i} className="text-[#44403c] leading-relaxed">
             {renderInline(item)}
           </li>
         ))}
@@ -85,7 +85,7 @@ function renderContent(content: string) {
     const parts = text.split(/\*\*(.*?)\*\*/g);
     return parts.map((part, i) =>
       i % 2 === 1 ? (
-        <strong key={i} className="font-semibold text-[#0f172a]">
+        <strong key={i} className="font-semibold text-[#1c1917]">
           {part}
         </strong>
       ) : (
@@ -102,7 +102,7 @@ function renderContent(content: string) {
       elements.push(
         <h2
           key={key++}
-          className="text-2xl font-bold text-[#0f172a] mt-10 mb-4 pb-3 border-b border-[rgba(124,60,23,0.1)]"
+          className="text-2xl font-bold text-[#1c1917] mt-10 mb-4 pb-3 border-b border-[rgba(124,60,23,0.1)]"
         >
           {trimmed.slice(3)}
         </h2>
@@ -110,7 +110,7 @@ function renderContent(content: string) {
     } else if (trimmed.startsWith("### ")) {
       flushList();
       elements.push(
-        <h3 key={key++} className="text-lg font-bold text-[#0f172a] mt-7 mb-3">
+        <h3 key={key++} className="text-lg font-bold text-[#1c1917] mt-7 mb-3">
           {trimmed.slice(4)}
         </h3>
       );
@@ -121,7 +121,7 @@ function renderContent(content: string) {
     } else {
       flushList();
       elements.push(
-        <p key={key++} className="text-[#334155] leading-relaxed my-3">
+        <p key={key++} className="text-[#44403c] leading-relaxed my-3">
           {renderInline(trimmed)}
         </p>
       );
@@ -174,13 +174,13 @@ export default async function BlogPostPage({ params }: Props) {
       <Navbar />
 
       {/* Article Header */}
-      <header className="bg-[#0f172a] text-white">
+      <header className="bg-[#1c1917] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
           <div className="max-w-3xl">
             {/* Back link */}
             <Link
               href="/blog"
-              className="inline-flex items-center gap-1.5 text-[#94a3b8] hover:text-white text-sm transition-colors mb-6"
+              className="inline-flex items-center gap-1.5 text-[#a8a29e] hover:text-white text-sm transition-colors mb-6"
             >
               <ArrowLeft size={14} />
               Back to Blog
@@ -202,7 +202,7 @@ export default async function BlogPostPage({ params }: Props) {
             </h1>
 
             {/* Meta row */}
-            <div className="flex flex-wrap items-center gap-5 text-sm text-[#94a3b8]">
+            <div className="flex flex-wrap items-center gap-5 text-sm text-[#a8a29e]">
               <span className="flex items-center gap-2">
                 <Calendar size={14} className="text-[#f97316]" />
                 {formatDate(post.date)}
@@ -221,7 +221,7 @@ export default async function BlogPostPage({ params }: Props) {
       </header>
 
       {/* Body */}
-      <div className="bg-[#f8fafc] py-12 lg:py-16">
+      <div className="bg-[#fafaf9] py-12 lg:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row gap-10 lg:gap-14">
 
@@ -236,7 +236,7 @@ export default async function BlogPostPage({ params }: Props) {
               {/* Related Posts */}
               {relatedPosts.length > 0 && (
                 <div className="mt-10">
-                  <h2 className="text-lg font-bold text-[#0f172a] mb-5">Related Articles</h2>
+                  <h2 className="text-lg font-bold text-[#1c1917] mb-5">Related Articles</h2>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                     {relatedPosts.map((related) => {
                       const relStyle = getCategoryStyle(related.category);
@@ -252,7 +252,7 @@ export default async function BlogPostPage({ params }: Props) {
                             <Tag size={9} />
                             {related.category}
                           </span>
-                          <h3 className="text-sm font-semibold text-[#0f172a] leading-snug group-hover:text-[#7C3C17] transition-colors mb-2">
+                          <h3 className="text-sm font-semibold text-[#1c1917] leading-snug group-hover:text-[#7C3C17] transition-colors mb-2">
                             {related.title}
                           </h3>
                           <span className="inline-flex items-center gap-1 text-xs font-semibold text-[#7C3C17] group-hover:text-[#f97316] transition-colors">
@@ -293,7 +293,7 @@ export default async function BlogPostPage({ params }: Props) {
 
               {/* Why Us */}
               <div className="bg-white rounded-2xl border border-[rgba(124,60,23,0.1)] shadow-sm p-6">
-                <h3 className="text-sm font-bold text-[#0f172a] uppercase tracking-wider mb-4">
+                <h3 className="text-sm font-bold text-[#1c1917] uppercase tracking-wider mb-4">
                   Why Contractors Choose Us
                 </h3>
                 <ul className="space-y-3">
@@ -305,7 +305,7 @@ export default async function BlogPostPage({ params }: Props) {
                     "Access to specialty E&S markets",
                     "Pollution liability specialists",
                   ].map((item) => (
-                    <li key={item} className="flex items-start gap-2.5 text-sm text-[#334155]">
+                    <li key={item} className="flex items-start gap-2.5 text-sm text-[#44403c]">
                       <span className="mt-1 w-4 h-4 rounded-full bg-[#FBF6EE] flex items-center justify-center flex-shrink-0">
                         <span className="block w-1.5 h-1.5 rounded-full bg-[#7C3C17]" />
                       </span>
@@ -320,10 +320,10 @@ export default async function BlogPostPage({ params }: Props) {
                 href="/blog"
                 className="flex items-center justify-between w-full bg-white rounded-2xl border border-[rgba(124,60,23,0.1)] shadow-sm p-5 hover:border-[#7C3C17] transition-colors group"
               >
-                <span className="text-sm font-semibold text-[#0f172a] group-hover:text-[#7C3C17] transition-colors">
+                <span className="text-sm font-semibold text-[#1c1917] group-hover:text-[#7C3C17] transition-colors">
                   View All Articles
                 </span>
-                <ArrowRight size={16} className="text-[#94a3b8] group-hover:text-[#7C3C17] transition-colors" />
+                <ArrowRight size={16} className="text-[#a8a29e] group-hover:text-[#7C3C17] transition-colors" />
               </Link>
             </aside>
           </div>

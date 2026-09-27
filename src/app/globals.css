@@ -2,7 +2,7 @@
 
 @theme inline {
   --color-background: #ffffff;
-  --color-foreground: #0f172a;
+  --color-foreground: #1c1917;
   --color-primary: #7C3C17;
   --color-primary-dark: #57290F;
   --color-secondary: #B35016;
@@ -12,15 +12,15 @@
   --color-surface-elevated: #F6EBDC;
   --color-border: rgba(124, 60, 23, 0.15);
   --color-border-subtle: rgba(0, 0, 0, 0.08);
-  --color-muted: #64748b;
-  --color-muted-foreground: #94a3b8;
+  --color-muted: #78716c;
+  --color-muted-foreground: #a8a29e;
   --font-sans: var(--font-inter);
   --font-mono: var(--font-geist-mono);
 }
 
 :root {
   --background: #ffffff;
-  --foreground: #0f172a;
+  --foreground: #1c1917;
   --primary: #7C3C17;
   --primary-dark: #57290F;
   --secondary: #B35016;
@@ -28,7 +28,7 @@
   --surface: #FBF6EE;
   --surface-elevated: #F6EBDC;
   --border: rgba(124, 60, 23, 0.15);
-  --muted: #64748b;
+  --muted: #78716c;
 }
 
 * { box-sizing: border-box; }
@@ -42,7 +42,7 @@ body {
 }
 
 .pipeline-gradient {
-  background: linear-gradient(135deg, #7C3C17 0%, #B35016 50%, #0f172a 100%);
+  background: linear-gradient(135deg, #7C3C17 0%, #B35016 50%, #1c1917 100%);
 }
 
 .orange-gradient {

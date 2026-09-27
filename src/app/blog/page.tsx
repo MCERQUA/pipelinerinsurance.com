@@ -19,7 +19,7 @@ const categoryColors: Record<string, { bg: string; text: string }> = {
 };
 
 function getCategoryStyle(category: string) {
-  return categoryColors[category] ?? { bg: "bg-[#f8fafc]", text: "text-[#475569]" };
+  return categoryColors[category] ?? { bg: "bg-[#fafaf9]", text: "text-[#57534e]" };
 }
 
 function formatDate(dateStr: string) {
@@ -38,7 +38,7 @@ export default function BlogPage() {
       <Navbar />
 
       {/* Hero */}
-      <section className="bg-[#0f172a] text-white">
+      <section className="bg-[#1c1917] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
           <div className="max-w-3xl">
             <div className="flex items-center gap-2 mb-4">
@@ -52,7 +52,7 @@ export default function BlogPage() {
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-4">
               Pipeline Insurance Resources
             </h1>
-            <p className="text-[#94a3b8] text-lg leading-relaxed">
+            <p className="text-[#a8a29e] text-lg leading-relaxed">
               Expert guides and coverage insights for pipeline contractors. Understand your risks,
               protect your business, and stay compliant — written by specialists who work in this
               industry every day.
@@ -62,10 +62,10 @@ export default function BlogPage() {
       </section>
 
       {/* Posts Grid */}
-      <section className="bg-[#f8fafc] py-14 lg:py-18">
+      <section className="bg-[#fafaf9] py-14 lg:py-18">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {posts.length === 0 ? (
-            <p className="text-[#64748b] text-center py-20">No posts yet. Check back soon.</p>
+            <p className="text-[#78716c] text-center py-20">No posts yet. Check back soon.</p>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {posts.map((post) => {
@@ -90,7 +90,7 @@ export default function BlogPage() {
                       </div>
 
                       {/* Title */}
-                      <h2 className="text-[#0f172a] font-bold text-lg leading-snug mb-3 flex-1">
+                      <h2 className="text-[#1c1917] font-bold text-lg leading-snug mb-3 flex-1">
                         <Link
                           href={`/blog/${post.slug}`}
                           className="hover:text-[#7C3C17] transition-colors"
@@ -100,12 +100,12 @@ export default function BlogPage() {
                       </h2>
 
                       {/* Excerpt */}
-                      <p className="text-[#475569] text-sm leading-relaxed mb-5">
+                      <p className="text-[#57534e] text-sm leading-relaxed mb-5">
                         {post.excerpt}
                       </p>
 
                       {/* Meta */}
-                      <div className="flex items-center gap-4 text-xs text-[#94a3b8] mb-5">
+                      <div className="flex items-center gap-4 text-xs text-[#a8a29e] mb-5">
                         <span className="flex items-center gap-1.5">
                           <Calendar size={12} />
                           {formatDate(post.date)}
