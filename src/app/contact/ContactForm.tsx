@@ -74,7 +74,7 @@ export default function ContactForm() {
               We'll be in touch within 1 business hour. For urgent matters, call{" "}
               <a
                 href="tel:844-967-5247"
-                className="text-[#1a4f8a] font-semibold hover:underline"
+                className="text-[#7C3C17] font-semibold hover:underline"
               >
                 844-967-5247
               </a>
@@ -110,7 +110,7 @@ export default function ContactForm() {
                   type="text"
                   required
                   placeholder="John Smith"
-                  className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow"
+                  className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow"
                 />
               </div>
               <div>
@@ -125,7 +125,7 @@ export default function ContactForm() {
                   name="company"
                   type="text"
                   placeholder="Smith Pipeline Co."
-                  className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow"
+                  className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow"
                 />
               </div>
             </div>
@@ -144,7 +144,7 @@ export default function ContactForm() {
                   type="email"
                   required
                   placeholder="john@smithpipeline.com"
-                  className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow"
+                  className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow"
                 />
               </div>
               <div>
@@ -159,7 +159,7 @@ export default function ContactForm() {
                   name="phone"
                   type="tel"
                   placeholder="(602) 555-0100"
-                  className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow"
+                  className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow"
                 />
               </div>
             </div>
@@ -177,7 +177,7 @@ export default function ContactForm() {
                 required
                 rows={5}
                 placeholder="Tell us about your pipeline operation and what coverage you're looking for..."
-                className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow resize-none"
+                className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow resize-none"
               />
             </div>
 

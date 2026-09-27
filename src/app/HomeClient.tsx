@@ -152,7 +152,7 @@ export default function HomeClient() {
 
       {/* HERO SECTION */}
       <section
-        style={{ background: "linear-gradient(180deg, #f0f7ff 0%, #ffffff 100%)" }}
+        style={{ background: "linear-gradient(180deg, #FBF6EE 0%, #ffffff 100%)" }}
         className="pt-24 pb-20 px-4"
       >
         <div className="max-w-6xl mx-auto">
@@ -167,7 +167,7 @@ export default function HomeClient() {
               <motion.div variants={fadeInUp} className="flex items-center gap-2 mb-4">
                 <span
                   className="inline-flex items-center gap-1 text-sm font-semibold px-3 py-1 rounded-full"
-                  style={{ backgroundColor: "#e0edff", color: "#1a4f8a" }}
+                  style={{ backgroundColor: "#F6EADA", color: "#7C3C17" }}
                 >
                   <Shield size={14} /> Specialized Pipeline Coverage
                 </span>
@@ -179,7 +179,7 @@ export default function HomeClient() {
                 style={{ color: "#0f172a" }}
               >
                 Pipeline Contractor Insurance{" "}
-                <span style={{ color: "#1a4f8a" }}>Built for the Field</span>
+                <span style={{ color: "#7C3C17" }}>Built for the Field</span>
               </motion.h1>
 
               <motion.p
@@ -202,7 +202,7 @@ export default function HomeClient() {
                 <a
                   href="tel:8449675247"
                   className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-lg font-semibold border-2 transition-colors hover:bg-blue-50"
-                  style={{ borderColor: "#1a4f8a", color: "#1a4f8a" }}
+                  style={{ borderColor: "#7C3C17", color: "#7C3C17" }}
                 >
                   <Phone size={18} /> Call 844-967-5247
                 </a>
@@ -216,7 +216,7 @@ export default function HomeClient() {
                 {["Licensed All 50 States", "20+ Years Experience", "15-Min Quote"].map(
                   (badge) => (
                     <span key={badge} className="flex items-center gap-1.5">
-                      <CheckCircle size={15} style={{ color: "#1a4f8a" }} />
+                      <CheckCircle size={15} style={{ color: "#7C3C17" }} />
                       {badge}
                     </span>
                   )
@@ -237,10 +237,10 @@ export default function HomeClient() {
                 />
                 <div
                   className="absolute inset-0 rounded-3xl"
-                  style={{ background: "linear-gradient(180deg, transparent 60%, rgba(26,79,138,0.3) 100%)" }}
+                  style={{ background: "linear-gradient(180deg, transparent 60%, rgba(124,60,23,0.3) 100%)" }}
                 />
                 <div className="absolute bottom-4 left-4 right-4">
-                  <span className="inline-flex items-center gap-1.5 bg-white/90 backdrop-blur-sm text-xs font-semibold px-3 py-1.5 rounded-full" style={{ color: "#1a4f8a" }}>
+                  <span className="inline-flex items-center gap-1.5 bg-white/90 backdrop-blur-sm text-xs font-semibold px-3 py-1.5 rounded-full" style={{ color: "#7C3C17" }}>
                     <Shield size={12} /> Trusted by 298+ Pipeline Contractors
                   </span>
                 </div>
@@ -323,7 +323,7 @@ export default function HomeClient() {
                     <Link
                       href={coverage.href}
                       className="inline-flex items-center gap-1 text-sm font-semibold transition-colors hover:gap-2"
-                      style={{ color: "#1a4f8a" }}
+                      style={{ color: "#7C3C17" }}
                     >
                       Learn More <ArrowRight size={15} />
                     </Link>
@@ -361,9 +361,9 @@ export default function HomeClient() {
                   <motion.div key={item.title} variants={fadeInUp} className="text-center">
                     <div
                       className="w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-5"
-                      style={{ backgroundColor: "#e0edff" }}
+                      style={{ backgroundColor: "#F6EADA" }}
                     >
-                      <Icon size={26} style={{ color: "#1a4f8a" }} />
+                      <Icon size={26} style={{ color: "#7C3C17" }} />
                     </div>
                     <h3 className="text-lg font-semibold mb-3" style={{ color: "#0f172a" }}>
                       {item.title}
@@ -493,7 +493,7 @@ export default function HomeClient() {
               <Link
                 href="/quote"
                 className="inline-flex items-center gap-2 px-8 py-4 rounded-lg font-semibold text-white transition-opacity hover:opacity-90"
-                style={{ backgroundColor: "#1a4f8a" }}
+                style={{ backgroundColor: "#7C3C17" }}
               >
                 Start Your Free Quote <ArrowRight size={18} />
               </Link>
@@ -503,7 +503,7 @@ export default function HomeClient() {
       </section>
 
       {/* COVERAGE STATES */}
-      <section className="py-20 px-4" style={{ backgroundColor: "#f0f7ff" }}>
+      <section className="py-20 px-4" style={{ backgroundColor: "#FBF6EE" }}>
         <div className="max-w-5xl mx-auto">
           <motion.div
             initial="hidden"
@@ -513,7 +513,7 @@ export default function HomeClient() {
           >
             <motion.div variants={fadeInUp} className="text-center mb-10">
               <div className="flex items-center justify-center gap-2 mb-3">
-                <MapPin size={22} style={{ color: "#1a4f8a" }} />
+                <MapPin size={22} style={{ color: "#7C3C17" }} />
                 <h2 className="text-3xl font-bold" style={{ color: "#0f172a" }}>
                   Coverage in All 50 States
                 </h2>
@@ -533,7 +533,7 @@ export default function HomeClient() {
                   key={state}
                   className="flex flex-col items-center gap-1 py-2 px-1 rounded-lg bg-white border border-gray-100 shadow-sm"
                 >
-                  <CheckCircle size={12} style={{ color: "#1a4f8a" }} />
+                  <CheckCircle size={12} style={{ color: "#7C3C17" }} />
                   <span className="text-xs font-medium text-gray-600">{state}</span>
                 </div>
               ))}

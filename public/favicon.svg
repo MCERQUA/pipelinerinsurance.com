@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
   <!-- Shield shape -->
-  <path d="M16 2L4 7v9c0 6.5 5.1 12.6 12 14 6.9-1.4 12-7.5 12-14V7L16 2z" fill="#1a4f8a"/>
+  <path d="M16 2L4 7v9c0 6.5 5.1 12.6 12 14 6.9-1.4 12-7.5 12-14V7L16 2z" fill="#7C3C17"/>
   <!-- Shield highlight/border -->
-  <path d="M16 2L4 7v9c0 6.5 5.1 12.6 12 14 6.9-1.4 12-7.5 12-14V7L16 2z" fill="none" stroke="#2a6bc4" stroke-width="1"/>
+  <path d="M16 2L4 7v9c0 6.5 5.1 12.6 12 14 6.9-1.4 12-7.5 12-14V7L16 2z" fill="none" stroke="#A95524" stroke-width="1"/>
   <!-- Pipe body - horizontal tube -->
   <rect x="4" y="14" width="24" height="5" rx="2.5" fill="#f97316"/>
   <!-- Pipe left cap -->

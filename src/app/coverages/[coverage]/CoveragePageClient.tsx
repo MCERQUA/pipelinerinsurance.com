@@ -55,7 +55,7 @@ function FAQItem({ q, a, index }: FAQItemProps) {
       initial={{ opacity: 0, y: 12 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.05 * index, duration: 0.35 }}
-      className="border border-[rgba(26,79,138,0.12)] rounded-xl overflow-hidden"
+      className="border border-[rgba(124,60,23,0.12)] rounded-xl overflow-hidden"
     >
       <button
         onClick={() => setOpen(!open)}
@@ -65,7 +65,7 @@ function FAQItem({ q, a, index }: FAQItemProps) {
         <span className="font-semibold text-[#0f172a] text-sm leading-snug">{q}</span>
         <ChevronDown
           size={18}
-          className={`flex-shrink-0 text-[#1a4f8a] transition-transform duration-200 ${
+          className={`flex-shrink-0 text-[#7C3C17] transition-transform duration-200 ${
             open ? "rotate-180" : ""
           }`}
         />
@@ -80,7 +80,7 @@ function FAQItem({ q, a, index }: FAQItemProps) {
             transition={{ duration: 0.25, ease: "easeInOut" }}
             className="overflow-hidden"
           >
-            <div className="px-6 pb-5 pt-1 text-sm text-[#475569] leading-relaxed border-t border-[rgba(26,79,138,0.08)] bg-[#f8fafc]">
+            <div className="px-6 pb-5 pt-1 text-sm text-[#475569] leading-relaxed border-t border-[rgba(124,60,23,0.08)] bg-[#f8fafc]">
               {a}
             </div>
           </motion.div>
@@ -96,9 +96,9 @@ function CoverageSidebar({ current }: { current: Coverage }) {
   return (
     <aside className="space-y-5">
       {/* Quote CTA */}
-      <div className="bg-[#1a4f8a] rounded-2xl p-6 text-white">
+      <div className="bg-[#7C3C17] rounded-2xl p-6 text-white">
         <h3 className="font-bold text-lg mb-2">Get a Quote Today</h3>
-        <p className="text-[#bfdbfe] text-sm leading-relaxed mb-5">
+        <p className="text-[#F7D1BB] text-sm leading-relaxed mb-5">
           Speak with a pipeline insurance specialist. 15-minute quote turnaround — no obligation.
         </p>
         <Link
@@ -117,7 +117,7 @@ function CoverageSidebar({ current }: { current: Coverage }) {
       </div>
 
       {/* Other coverages */}
-      <div className="bg-white rounded-2xl border border-[rgba(26,79,138,0.1)] p-5">
+      <div className="bg-white rounded-2xl border border-[rgba(124,60,23,0.1)] p-5">
         <h3 className="font-semibold text-[#0f172a] text-sm uppercase tracking-wider mb-4">
           Other Coverage Types
         </h3>
@@ -131,9 +131,9 @@ function CoverageSidebar({ current }: { current: Coverage }) {
                 <li key={c.slug}>
                   <Link
                     href={href}
-                    className="flex items-center gap-2.5 px-3 py-2.5 text-sm text-[#334155] hover:text-[#1a4f8a] hover:bg-[#f0f7ff] rounded-lg transition-colors"
+                    className="flex items-center gap-2.5 px-3 py-2.5 text-sm text-[#334155] hover:text-[#7C3C17] hover:bg-[#FBF6EE] rounded-lg transition-colors"
                   >
-                    <IconComp size={14} className="text-[#1a4f8a] flex-shrink-0" strokeWidth={2} />
+                    <IconComp size={14} className="text-[#7C3C17] flex-shrink-0" strokeWidth={2} />
                     {c.shortTitle}
                   </Link>
                 </li>
@@ -143,7 +143,7 @@ function CoverageSidebar({ current }: { current: Coverage }) {
       </div>
 
       {/* Trust signals */}
-      <div className="bg-[#f8fafc] rounded-2xl border border-[rgba(26,79,138,0.08)] p-5">
+      <div className="bg-[#f8fafc] rounded-2xl border border-[rgba(124,60,23,0.08)] p-5">
         {[
           "Licensed in All 50 States",
           "Same-Day Certificates of Insurance",
@@ -175,7 +175,7 @@ export default function CoveragePageClient({ coverage }: { coverage: Coverage })
           className="absolute inset-0 opacity-10"
           style={{
             backgroundImage:
-              "radial-gradient(circle at 15% 60%, #1a4f8a 0%, transparent 55%), radial-gradient(circle at 85% 20%, #f97316 0%, transparent 50%)",
+              "radial-gradient(circle at 15% 60%, #7C3C17 0%, transparent 55%), radial-gradient(circle at 85% 20%, #f97316 0%, transparent 50%)",
           }}
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
@@ -193,7 +193,7 @@ export default function CoveragePageClient({ coverage }: { coverage: Coverage })
           </nav>
 
           <div className="flex items-start gap-5">
-            <div className="flex-shrink-0 flex items-center justify-center w-14 h-14 lg:w-16 lg:h-16 rounded-2xl bg-[#1a4f8a] text-white shadow-lg">
+            <div className="flex-shrink-0 flex items-center justify-center w-14 h-14 lg:w-16 lg:h-16 rounded-2xl bg-[#7C3C17] text-white shadow-lg">
               <IconComponent size={28} strokeWidth={2} />
             </div>
             <div>
@@ -238,10 +238,10 @@ export default function CoveragePageClient({ coverage }: { coverage: Coverage })
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4 }}
-                className="bg-white rounded-2xl border border-[rgba(26,79,138,0.1)] p-7 lg:p-8"
+                className="bg-white rounded-2xl border border-[rgba(124,60,23,0.1)] p-7 lg:p-8"
               >
                 <h2 className="text-xl font-bold text-[#0f172a] mb-6 flex items-center gap-3">
-                  <span className="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-[#1a4f8a] text-white flex-shrink-0">
+                  <span className="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-[#7C3C17] text-white flex-shrink-0">
                     <CheckCircle size={15} strokeWidth={2.5} />
                   </span>
                   What&apos;s Covered
@@ -253,7 +253,7 @@ export default function CoveragePageClient({ coverage }: { coverage: Coverage })
                       initial={{ opacity: 0, x: -10 }}
                       animate={{ opacity: 1, x: 0 }}
                       transition={{ delay: 0.05 * i, duration: 0.3 }}
-                      className="flex items-start gap-3 p-3.5 bg-[#f8fafc] rounded-xl border border-[rgba(26,79,138,0.06)]"
+                      className="flex items-start gap-3 p-3.5 bg-[#f8fafc] rounded-xl border border-[rgba(124,60,23,0.06)]"
                     >
                       <CheckCircle size={15} className="text-[#f97316] flex-shrink-0 mt-0.5" />
                       <span className="text-sm text-[#334155] font-medium leading-snug">{item}</span>
@@ -267,7 +267,7 @@ export default function CoveragePageClient({ coverage }: { coverage: Coverage })
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4, delay: 0.1 }}
-                className="bg-white rounded-2xl border border-[rgba(26,79,138,0.1)] p-7 lg:p-8"
+                className="bg-white rounded-2xl border border-[rgba(124,60,23,0.1)] p-7 lg:p-8"
               >
                 <h2 className="text-xl font-bold text-[#0f172a] mb-4 flex items-center gap-3">
                   <span className="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-[#16a34a] text-white flex-shrink-0">
@@ -283,7 +283,7 @@ export default function CoveragePageClient({ coverage }: { coverage: Coverage })
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4, delay: 0.15 }}
-                className="bg-[#1a4f8a] rounded-2xl p-7 lg:p-8"
+                className="bg-[#7C3C17] rounded-2xl p-7 lg:p-8"
               >
                 <h2 className="text-xl font-bold text-white mb-4 flex items-center gap-3">
                   <span className="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-white/20 text-white flex-shrink-0">
@@ -291,7 +291,7 @@ export default function CoveragePageClient({ coverage }: { coverage: Coverage })
                   </span>
                   Why Contractors Choose CCA
                 </h2>
-                <p className="text-[#bfdbfe] text-sm leading-relaxed mb-6">
+                <p className="text-[#F7D1BB] text-sm leading-relaxed mb-6">
                   {coverage.whyCCA}
                 </p>
                 <Link
@@ -359,7 +359,7 @@ export default function CoveragePageClient({ coverage }: { coverage: Coverage })
               <div>
                 <Link
                   href="/coverages"
-                  className="inline-flex items-center gap-2 text-sm text-[#1a4f8a] hover:text-[#123568] font-medium transition-colors"
+                  className="inline-flex items-center gap-2 text-sm text-[#7C3C17] hover:text-[#57290F] font-medium transition-colors"
                 >
                   <ArrowLeft size={14} />
                   Back to All Coverages

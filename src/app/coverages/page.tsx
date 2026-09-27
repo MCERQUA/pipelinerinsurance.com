@@ -32,13 +32,13 @@ const iconMap: Record<string, React.ComponentType<{ size?: number; className?: s
 
 const accentColors: Record<string, { bg: string; text: string; border: string; iconBg: string }> = {
   Shield: {
-    bg: "bg-[#f0f7ff]",
-    text: "text-[#1a4f8a]",
-    border: "border-[rgba(26,79,138,0.15)]",
-    iconBg: "bg-[#1a4f8a]",
+    bg: "bg-[#FBF6EE]",
+    text: "text-[#7C3C17]",
+    border: "border-[rgba(124,60,23,0.15)]",
+    iconBg: "bg-[#7C3C17]",
   },
   Users: {
-    bg: "bg-[#f0fdf4]",
+    bg: "bg-[#FCF9F5]",
     text: "text-[#166534]",
     border: "border-[rgba(22,101,52,0.15)]",
     iconBg: "bg-[#16a34a]",
@@ -89,7 +89,7 @@ export default function CoveragesPage() {
           className="absolute inset-0 opacity-10"
           style={{
             backgroundImage:
-              "radial-gradient(circle at 20% 50%, #1a4f8a 0%, transparent 60%), radial-gradient(circle at 80% 20%, #f97316 0%, transparent 50%)",
+              "radial-gradient(circle at 20% 50%, #7C3C17 0%, transparent 60%), radial-gradient(circle at 80% 20%, #f97316 0%, transparent 50%)",
           }}
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
@@ -130,7 +130,7 @@ export default function CoveragesPage() {
       </section>
 
       {/* Trust Bar */}
-      <div className="bg-[#1a4f8a] py-3.5">
+      <div className="bg-[#7C3C17] py-3.5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap items-center justify-center gap-6 lg:gap-10">
             {[
@@ -182,7 +182,7 @@ export default function CoveragesPage() {
                   </div>
 
                   {/* Content */}
-                  <h3 className="text-lg font-bold text-[#0f172a] mb-2 group-hover:text-[#1a4f8a] transition-colors">
+                  <h3 className="text-lg font-bold text-[#0f172a] mb-2 group-hover:text-[#7C3C17] transition-colors">
                     {coverage.shortTitle}
                   </h3>
                   <p className="text-[#475569] text-sm leading-relaxed mb-5 flex-1">
@@ -226,15 +226,15 @@ export default function CoveragesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-[#f0f7ff] border border-[rgba(26,79,138,0.15)] rounded-full mb-5">
-                <Shield size={13} className="text-[#1a4f8a]" />
-                <span className="text-[#1a4f8a] text-xs font-semibold uppercase tracking-wider">
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-[#FBF6EE] border border-[rgba(124,60,23,0.15)] rounded-full mb-5">
+                <Shield size={13} className="text-[#7C3C17]" />
+                <span className="text-[#7C3C17] text-xs font-semibold uppercase tracking-wider">
                   Why Contractors Choose Us
                 </span>
               </div>
               <h2 className="text-3xl lg:text-4xl font-bold text-[#0f172a] mb-5">
                 Pipeline Insurance Specialists —{" "}
-                <span className="text-[#1a4f8a]">Not Generalists</span>
+                <span className="text-[#7C3C17]">Not Generalists</span>
               </h2>
               <p className="text-[#475569] text-base leading-relaxed mb-6">
                 Most insurance brokers treat pipeline contractors like any other construction
@@ -249,7 +249,7 @@ export default function CoveragesPage() {
               </p>
               <Link
                 href="/quote"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-[#1a4f8a] hover:bg-[#123568] text-white font-semibold rounded-lg transition-colors"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-[#7C3C17] hover:bg-[#57290F] text-white font-semibold rounded-lg transition-colors"
               >
                 Start Your Quote
                 <ArrowRight size={16} />
@@ -265,9 +265,9 @@ export default function CoveragesPage() {
               ].map(({ stat, label }) => (
                 <div
                   key={label}
-                  className="bg-[#f8fafc] rounded-2xl border border-[rgba(26,79,138,0.1)] p-6 text-center"
+                  className="bg-[#f8fafc] rounded-2xl border border-[rgba(124,60,23,0.1)] p-6 text-center"
                 >
-                  <div className="text-3xl font-bold text-[#1a4f8a] mb-1">{stat}</div>
+                  <div className="text-3xl font-bold text-[#7C3C17] mb-1">{stat}</div>
                   <div className="text-sm text-[#64748b] font-medium">{label}</div>
                 </div>
               ))}

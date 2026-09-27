@@ -10,7 +10,7 @@ export default function NotFound() {
       <main className="min-h-screen bg-gray-50 flex items-center justify-center px-4 py-24">
         <div className="max-w-lg mx-auto text-center">
           {/* 404 number */}
-          <div className="text-[120px] font-black text-[#1a4f8a] leading-none mb-6 select-none opacity-10">
+          <div className="text-[120px] font-black text-[#7C3C17] leading-none mb-6 select-none opacity-10">
             404
           </div>
           <div className="-mt-16 mb-8">
@@ -26,7 +26,7 @@ export default function NotFound() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/"
-              className="inline-flex items-center justify-center gap-2 bg-[#1a4f8a] hover:bg-blue-800 text-white font-semibold px-7 py-4 rounded-xl transition-colors duration-200"
+              className="inline-flex items-center justify-center gap-2 bg-[#7C3C17] hover:bg-blue-800 text-white font-semibold px-7 py-4 rounded-xl transition-colors duration-200"
             >
               <Home className="w-5 h-5" />
               Go Home
@@ -45,7 +45,7 @@ export default function NotFound() {
               Need immediate help?{" "}
               <a
                 href="tel:844-967-5247"
-                className="text-[#1a4f8a] font-semibold hover:underline"
+                className="text-[#7C3C17] font-semibold hover:underline"
               >
                 Call 844-967-5247
               </a>

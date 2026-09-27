@@ -183,7 +183,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-        <meta name="theme-color" content="#1a4f8a" />
+        <meta name="theme-color" content="#7C3C17" />
       </head>
       <body className="antialiased min-h-screen flex flex-col">
         {children}

@@ -28,7 +28,7 @@ export default function Footer() {
           {/* Brand Column */}
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-2.5 mb-4 group w-fit">
-              <div className="flex items-center justify-center w-9 h-9 rounded-lg bg-[#1a4f8a] text-white group-hover:bg-[#f97316] transition-colors">
+              <div className="flex items-center justify-center w-9 h-9 rounded-lg bg-[#7C3C17] text-white group-hover:bg-[#f97316] transition-colors">
                 <Shield size={20} strokeWidth={2.5} />
               </div>
               <div className="flex flex-col leading-none">
@@ -109,7 +109,7 @@ export default function Footer() {
                 >
                   <Phone
                     size={15}
-                    className="flex-shrink-0 mt-0.5 text-[#1a4f8a] group-hover:text-[#f97316] transition-colors"
+                    className="flex-shrink-0 mt-0.5 text-[#7C3C17] group-hover:text-[#f97316] transition-colors"
                   />
                   <div>
                     <div className="font-medium text-white group-hover:text-[#f97316] transition-colors">
@@ -126,7 +126,7 @@ export default function Footer() {
                 >
                   <Mail
                     size={15}
-                    className="flex-shrink-0 mt-0.5 text-[#1a4f8a] group-hover:text-[#f97316] transition-colors"
+                    className="flex-shrink-0 mt-0.5 text-[#7C3C17] group-hover:text-[#f97316] transition-colors"
                   />
                   <span className="break-all">josh@contractorschoiceagency.com</span>
                 </a>
@@ -135,7 +135,7 @@ export default function Footer() {
                 <div className="flex items-start gap-3 text-[#94a3b8] text-sm">
                   <MapPin
                     size={15}
-                    className="flex-shrink-0 mt-0.5 text-[#1a4f8a]"
+                    className="flex-shrink-0 mt-0.5 text-[#7C3C17]"
                   />
                   <div>
                     <div>12220 E Riggs Rd</div>

@@ -43,7 +43,7 @@ export default function AboutContent() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-[#1a4f8a] text-white py-24 px-4">
+      <section className="bg-[#7C3C17] text-white py-24 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -81,9 +81,9 @@ export default function AboutContent() {
                 className="text-center"
               >
                 <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center mx-auto mb-3">
-                  <Icon className="w-6 h-6 text-[#1a4f8a]" />
+                  <Icon className="w-6 h-6 text-[#7C3C17]" />
                 </div>
-                <div className="text-3xl font-bold text-[#1a4f8a] mb-1">
+                <div className="text-3xl font-bold text-[#7C3C17] mb-1">
                   {stat.value}
                 </div>
                 <div className="text-sm text-gray-500 font-medium">
@@ -130,11 +130,11 @@ export default function AboutContent() {
               </p>
             </div>
             <div className="mt-6 flex items-center gap-3 text-gray-500 text-sm">
-              <MapPin className="w-4 h-4 text-[#1a4f8a] shrink-0" />
+              <MapPin className="w-4 h-4 text-[#7C3C17] shrink-0" />
               <span>12220 E Riggs Rd, Chandler, AZ 85249</span>
             </div>
             <div className="mt-2 flex items-center gap-3 text-gray-500 text-sm">
-              <Phone className="w-4 h-4 text-[#1a4f8a] shrink-0" />
+              <Phone className="w-4 h-4 text-[#7C3C17] shrink-0" />
               <span>844-967-5247</span>
             </div>
           </motion.div>
@@ -144,7 +144,7 @@ export default function AboutContent() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="bg-[#1a4f8a] rounded-2xl p-8 text-white"
+            className="bg-[#7C3C17] rounded-2xl p-8 text-white"
           >
             <div className="flex items-center gap-3 mb-6">
               <div className="w-14 h-14 bg-white/20 rounded-full flex items-center justify-center">
@@ -185,7 +185,7 @@ export default function AboutContent() {
             transition={{ duration: 0.6 }}
           >
             <div className="w-14 h-14 bg-blue-50 rounded-2xl flex items-center justify-center mx-auto mb-6">
-              <Shield className="w-7 h-7 text-[#1a4f8a]" />
+              <Shield className="w-7 h-7 text-[#7C3C17]" />
             </div>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
               Our Mission
@@ -238,7 +238,7 @@ export default function AboutContent() {
       </section>
 
       {/* Response Times */}
-      <section className="py-16 px-4 bg-[#1a4f8a]">
+      <section className="py-16 px-4 bg-[#7C3C17]">
         <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -302,7 +302,7 @@ export default function AboutContent() {
               </Link>
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center bg-white border-2 border-[#1a4f8a] text-[#1a4f8a] hover:bg-blue-50 font-semibold px-8 py-4 rounded-xl transition-colors duration-200 text-lg"
+                className="inline-flex items-center justify-center bg-white border-2 border-[#7C3C17] text-[#7C3C17] hover:bg-blue-50 font-semibold px-8 py-4 rounded-xl transition-colors duration-200 text-lg"
               >
                 Contact Us
               </Link>

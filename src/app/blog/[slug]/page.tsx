@@ -34,8 +34,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 const categoryColors: Record<string, { bg: string; text: string }> = {
-  "Coverage Basics": { bg: "bg-[#f0f7ff]", text: "text-[#1a4f8a]" },
-  "Workers Compensation": { bg: "bg-[#f0fdf4]", text: "text-[#166534]" },
+  "Coverage Basics": { bg: "bg-[#FBF6EE]", text: "text-[#7C3C17]" },
+  "Workers Compensation": { bg: "bg-[#FCF9F5]", text: "text-[#166534]" },
   "Pollution Liability": { bg: "bg-[#fefce8]", text: "text-[#854d0e]" },
   "Commercial Auto": { bg: "bg-[#fff7ed]", text: "text-[#9a3412]" },
 };
@@ -102,7 +102,7 @@ function renderContent(content: string) {
       elements.push(
         <h2
           key={key++}
-          className="text-2xl font-bold text-[#0f172a] mt-10 mb-4 pb-3 border-b border-[rgba(26,79,138,0.1)]"
+          className="text-2xl font-bold text-[#0f172a] mt-10 mb-4 pb-3 border-b border-[rgba(124,60,23,0.1)]"
         >
           {trimmed.slice(3)}
         </h2>
@@ -227,7 +227,7 @@ export default async function BlogPostPage({ params }: Props) {
 
             {/* Main Content */}
             <article className="flex-1 min-w-0">
-              <div className="bg-white rounded-2xl border border-[rgba(26,79,138,0.1)] shadow-sm p-8 lg:p-10">
+              <div className="bg-white rounded-2xl border border-[rgba(124,60,23,0.1)] shadow-sm p-8 lg:p-10">
                 <div className="prose-custom max-w-none">
                   {renderContent(post.content)}
                 </div>
@@ -244,7 +244,7 @@ export default async function BlogPostPage({ params }: Props) {
                         <Link
                           key={related.slug}
                           href={`/blog/${related.slug}`}
-                          className="bg-white rounded-xl border border-[rgba(26,79,138,0.1)] shadow-sm hover:shadow-md p-5 transition-shadow group"
+                          className="bg-white rounded-xl border border-[rgba(124,60,23,0.1)] shadow-sm hover:shadow-md p-5 transition-shadow group"
                         >
                           <span
                             className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-semibold mb-3 ${relStyle.bg} ${relStyle.text}`}
@@ -252,10 +252,10 @@ export default async function BlogPostPage({ params }: Props) {
                             <Tag size={9} />
                             {related.category}
                           </span>
-                          <h3 className="text-sm font-semibold text-[#0f172a] leading-snug group-hover:text-[#1a4f8a] transition-colors mb-2">
+                          <h3 className="text-sm font-semibold text-[#0f172a] leading-snug group-hover:text-[#7C3C17] transition-colors mb-2">
                             {related.title}
                           </h3>
-                          <span className="inline-flex items-center gap-1 text-xs font-semibold text-[#1a4f8a] group-hover:text-[#f97316] transition-colors">
+                          <span className="inline-flex items-center gap-1 text-xs font-semibold text-[#7C3C17] group-hover:text-[#f97316] transition-colors">
                             Read More <ArrowRight size={12} />
                           </span>
                         </Link>
@@ -270,9 +270,9 @@ export default async function BlogPostPage({ params }: Props) {
             <aside className="w-full lg:w-80 flex-shrink-0 space-y-6">
 
               {/* Get a Quote CTA */}
-              <div className="bg-[#1a4f8a] text-white rounded-2xl p-6 shadow-md">
+              <div className="bg-[#7C3C17] text-white rounded-2xl p-6 shadow-md">
                 <h3 className="text-lg font-bold mb-2">Get a Quote</h3>
-                <p className="text-[#bfdbfe] text-sm leading-relaxed mb-5">
+                <p className="text-[#F7D1BB] text-sm leading-relaxed mb-5">
                   Pipeline insurance specialists ready to help. 15-minute quote turnaround, all 50 states.
                 </p>
                 <Link
@@ -292,7 +292,7 @@ export default async function BlogPostPage({ params }: Props) {
               </div>
 
               {/* Why Us */}
-              <div className="bg-white rounded-2xl border border-[rgba(26,79,138,0.1)] shadow-sm p-6">
+              <div className="bg-white rounded-2xl border border-[rgba(124,60,23,0.1)] shadow-sm p-6">
                 <h3 className="text-sm font-bold text-[#0f172a] uppercase tracking-wider mb-4">
                   Why Contractors Choose Us
                 </h3>
@@ -306,8 +306,8 @@ export default async function BlogPostPage({ params }: Props) {
                     "Pollution liability specialists",
                   ].map((item) => (
                     <li key={item} className="flex items-start gap-2.5 text-sm text-[#334155]">
-                      <span className="mt-1 w-4 h-4 rounded-full bg-[#f0f7ff] flex items-center justify-center flex-shrink-0">
-                        <span className="block w-1.5 h-1.5 rounded-full bg-[#1a4f8a]" />
+                      <span className="mt-1 w-4 h-4 rounded-full bg-[#FBF6EE] flex items-center justify-center flex-shrink-0">
+                        <span className="block w-1.5 h-1.5 rounded-full bg-[#7C3C17]" />
                       </span>
                       {item}
                     </li>
@@ -318,12 +318,12 @@ export default async function BlogPostPage({ params }: Props) {
               {/* All Articles link */}
               <Link
                 href="/blog"
-                className="flex items-center justify-between w-full bg-white rounded-2xl border border-[rgba(26,79,138,0.1)] shadow-sm p-5 hover:border-[#1a4f8a] transition-colors group"
+                className="flex items-center justify-between w-full bg-white rounded-2xl border border-[rgba(124,60,23,0.1)] shadow-sm p-5 hover:border-[#7C3C17] transition-colors group"
               >
-                <span className="text-sm font-semibold text-[#0f172a] group-hover:text-[#1a4f8a] transition-colors">
+                <span className="text-sm font-semibold text-[#0f172a] group-hover:text-[#7C3C17] transition-colors">
                   View All Articles
                 </span>
-                <ArrowRight size={16} className="text-[#94a3b8] group-hover:text-[#1a4f8a] transition-colors" />
+                <ArrowRight size={16} className="text-[#94a3b8] group-hover:text-[#7C3C17] transition-colors" />
               </Link>
             </aside>
           </div>

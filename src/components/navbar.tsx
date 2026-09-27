@@ -41,18 +41,18 @@ export default function Navbar() {
   return (
     <nav
       className={`sticky top-0 z-50 w-full bg-white transition-all duration-300 ${
-        scrolled ? "shadow-md border-b border-[rgba(26,79,138,0.12)]" : "border-b border-transparent"
+        scrolled ? "shadow-md border-b border-[rgba(124,60,23,0.12)]" : "border-b border-transparent"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-18">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2.5 group flex-shrink-0">
-            <div className="flex items-center justify-center w-9 h-9 rounded-lg bg-[#1a4f8a] text-white group-hover:bg-[#123568] transition-colors">
+            <div className="flex items-center justify-center w-9 h-9 rounded-lg bg-[#7C3C17] text-white group-hover:bg-[#57290F] transition-colors">
               <Shield size={20} strokeWidth={2.5} />
             </div>
             <div className="flex flex-col leading-none">
-              <span className="text-[#1a4f8a] font-bold text-base tracking-tight">
+              <span className="text-[#7C3C17] font-bold text-base tracking-tight">
                 Pipeline<span className="text-[#f97316]">Insurance</span>
               </span>
               <span className="text-[#64748b] text-[10px] tracking-wide uppercase font-medium hidden sm:block">
@@ -69,7 +69,7 @@ export default function Navbar() {
                   <button
                     onClick={() => toggleDropdown(link.label)}
                     onBlur={() => setTimeout(() => setOpenDropdown(null), 150)}
-                    className="flex items-center gap-1 px-3 py-2 text-sm font-medium text-[#0f172a] hover:text-[#1a4f8a] transition-colors rounded-md hover:bg-[#f0f7ff]"
+                    className="flex items-center gap-1 px-3 py-2 text-sm font-medium text-[#0f172a] hover:text-[#7C3C17] transition-colors rounded-md hover:bg-[#FBF6EE]"
                   >
                     {link.label}
                     <ChevronDown
@@ -86,13 +86,13 @@ export default function Navbar() {
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: -8 }}
                         transition={{ duration: 0.15 }}
-                        className="absolute top-full left-0 mt-1 w-56 bg-white rounded-xl shadow-xl border border-[rgba(26,79,138,0.1)] py-1.5 z-50"
+                        className="absolute top-full left-0 mt-1 w-56 bg-white rounded-xl shadow-xl border border-[rgba(124,60,23,0.1)] py-1.5 z-50"
                       >
                         {link.children.map((child) => (
                           <Link
                             key={child.href}
                             href={child.href}
-                            className="block px-4 py-2 text-sm text-[#334155] hover:text-[#1a4f8a] hover:bg-[#f0f7ff] transition-colors"
+                            className="block px-4 py-2 text-sm text-[#334155] hover:text-[#7C3C17] hover:bg-[#FBF6EE] transition-colors"
                             onClick={() => setOpenDropdown(null)}
                           >
                             {child.label}
@@ -106,7 +106,7 @@ export default function Navbar() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="px-3 py-2 text-sm font-medium text-[#0f172a] hover:text-[#1a4f8a] transition-colors rounded-md hover:bg-[#f0f7ff]"
+                  className="px-3 py-2 text-sm font-medium text-[#0f172a] hover:text-[#7C3C17] transition-colors rounded-md hover:bg-[#FBF6EE]"
                 >
                   {link.label}
                 </Link>
@@ -118,7 +118,7 @@ export default function Navbar() {
           <div className="hidden lg:flex items-center gap-3">
             <a
               href="tel:844-967-5247"
-              className="text-sm font-medium text-[#1a4f8a] hover:text-[#123568] transition-colors"
+              className="text-sm font-medium text-[#7C3C17] hover:text-[#57290F] transition-colors"
             >
               844-967-5247
             </a>
@@ -133,7 +133,7 @@ export default function Navbar() {
           {/* Mobile Hamburger */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="lg:hidden p-2 rounded-lg text-[#0f172a] hover:bg-[#f0f7ff] transition-colors"
+            className="lg:hidden p-2 rounded-lg text-[#0f172a] hover:bg-[#FBF6EE] transition-colors"
             aria-label="Toggle menu"
           >
             {isOpen ? <X size={22} /> : <Menu size={22} />}
@@ -149,7 +149,7 @@ export default function Navbar() {
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.2, ease: "easeInOut" }}
-            className="lg:hidden overflow-hidden border-t border-[rgba(26,79,138,0.1)] bg-white"
+            className="lg:hidden overflow-hidden border-t border-[rgba(124,60,23,0.1)] bg-white"
           >
             <div className="px-4 py-3 space-y-1">
               {navLinks.map((link) =>
@@ -157,7 +157,7 @@ export default function Navbar() {
                   <div key={link.label}>
                     <button
                       onClick={() => toggleDropdown(link.label)}
-                      className="flex items-center justify-between w-full px-3 py-2.5 text-sm font-medium text-[#0f172a] hover:text-[#1a4f8a] hover:bg-[#f0f7ff] rounded-lg transition-colors"
+                      className="flex items-center justify-between w-full px-3 py-2.5 text-sm font-medium text-[#0f172a] hover:text-[#7C3C17] hover:bg-[#FBF6EE] rounded-lg transition-colors"
                     >
                       {link.label}
                       <ChevronDown
@@ -179,7 +179,7 @@ export default function Navbar() {
                             <Link
                               key={child.href}
                               href={child.href}
-                              className="block px-3 py-2 text-sm text-[#475569] hover:text-[#1a4f8a] hover:bg-[#f0f7ff] rounded-lg transition-colors"
+                              className="block px-3 py-2 text-sm text-[#475569] hover:text-[#7C3C17] hover:bg-[#FBF6EE] rounded-lg transition-colors"
                               onClick={() => {
                                 setIsOpen(false);
                                 setOpenDropdown(null);
@@ -196,17 +196,17 @@ export default function Navbar() {
                   <Link
                     key={link.href}
                     href={link.href}
-                    className="block px-3 py-2.5 text-sm font-medium text-[#0f172a] hover:text-[#1a4f8a] hover:bg-[#f0f7ff] rounded-lg transition-colors"
+                    className="block px-3 py-2.5 text-sm font-medium text-[#0f172a] hover:text-[#7C3C17] hover:bg-[#FBF6EE] rounded-lg transition-colors"
                     onClick={() => setIsOpen(false)}
                   >
                     {link.label}
                   </Link>
                 )
               )}
-              <div className="pt-3 pb-1 border-t border-[rgba(26,79,138,0.1)] space-y-2">
+              <div className="pt-3 pb-1 border-t border-[rgba(124,60,23,0.1)] space-y-2">
                 <a
                   href="tel:844-967-5247"
-                  className="block text-center px-3 py-2.5 text-sm font-medium text-[#1a4f8a] hover:bg-[#f0f7ff] rounded-lg transition-colors"
+                  className="block text-center px-3 py-2.5 text-sm font-medium text-[#7C3C17] hover:bg-[#FBF6EE] rounded-lg transition-colors"
                   onClick={() => setIsOpen(false)}
                 >
                   Call: 844-967-5247

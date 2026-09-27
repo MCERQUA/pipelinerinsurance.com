@@ -16,7 +16,7 @@ export default function ContactPage() {
       <Navbar />
       <main className="min-h-screen">
         {/* Hero */}
-        <section className="bg-[#1a4f8a] text-white py-20 px-4">
+        <section className="bg-[#7C3C17] text-white py-20 px-4">
           <div className="max-w-4xl mx-auto text-center">
             <span className="inline-block bg-[#f97316] text-white text-sm font-semibold px-4 py-1.5 rounded-full mb-6 uppercase tracking-wide">
               Contact Us
@@ -46,7 +46,7 @@ export default function ContactPage() {
                 <div className="space-y-5">
                   <div className="flex items-start gap-4">
                     <div className="w-11 h-11 bg-blue-50 rounded-xl flex items-center justify-center shrink-0">
-                      <Phone className="w-5 h-5 text-[#1a4f8a]" />
+                      <Phone className="w-5 h-5 text-[#7C3C17]" />
                     </div>
                     <div>
                       <div className="font-semibold text-gray-900 mb-0.5">
@@ -54,7 +54,7 @@ export default function ContactPage() {
                       </div>
                       <a
                         href="tel:844-967-5247"
-                        className="text-[#1a4f8a] hover:text-blue-700 font-medium text-lg"
+                        className="text-[#7C3C17] hover:text-blue-700 font-medium text-lg"
                       >
                         844-967-5247
                       </a>
@@ -66,7 +66,7 @@ export default function ContactPage() {
 
                   <div className="flex items-start gap-4">
                     <div className="w-11 h-11 bg-blue-50 rounded-xl flex items-center justify-center shrink-0">
-                      <Mail className="w-5 h-5 text-[#1a4f8a]" />
+                      <Mail className="w-5 h-5 text-[#7C3C17]" />
                     </div>
                     <div>
                       <div className="font-semibold text-gray-900 mb-0.5">
@@ -74,7 +74,7 @@ export default function ContactPage() {
                       </div>
                       <a
                         href="mailto:josh@contractorschoiceagency.com"
-                        className="text-[#1a4f8a] hover:text-blue-700 font-medium"
+                        className="text-[#7C3C17] hover:text-blue-700 font-medium"
                       >
                         josh@contractorschoiceagency.com
                       </a>
@@ -83,7 +83,7 @@ export default function ContactPage() {
 
                   <div className="flex items-start gap-4">
                     <div className="w-11 h-11 bg-blue-50 rounded-xl flex items-center justify-center shrink-0">
-                      <MapPin className="w-5 h-5 text-[#1a4f8a]" />
+                      <MapPin className="w-5 h-5 text-[#7C3C17]" />
                     </div>
                     <div>
                       <div className="font-semibold text-gray-900 mb-0.5">
@@ -99,7 +99,7 @@ export default function ContactPage() {
 
                   <div className="flex items-start gap-4">
                     <div className="w-11 h-11 bg-blue-50 rounded-xl flex items-center justify-center shrink-0">
-                      <Clock className="w-5 h-5 text-[#1a4f8a]" />
+                      <Clock className="w-5 h-5 text-[#7C3C17]" />
                     </div>
                     <div>
                       <div className="font-semibold text-gray-900 mb-0.5">
@@ -134,7 +134,7 @@ export default function ContactPage() {
               </div>
 
               {/* Quick stats */}
-              <div className="bg-[#1a4f8a] rounded-2xl p-6 text-white">
+              <div className="bg-[#7C3C17] rounded-2xl p-6 text-white">
                 <h3 className="font-bold text-lg mb-4">What to Expect</h3>
                 <ul className="space-y-3 text-blue-200 text-sm">
                   <li className="flex items-start gap-2">

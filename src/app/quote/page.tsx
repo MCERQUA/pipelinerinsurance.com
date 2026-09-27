@@ -116,7 +116,7 @@ export default function QuotePage() {
       <Navbar />
       <main className="min-h-screen bg-gray-50">
         {/* Hero */}
-        <section className="bg-[#1a4f8a] text-white py-20 px-4">
+        <section className="bg-[#7C3C17] text-white py-20 px-4">
           <div className="max-w-4xl mx-auto text-center">
             <span className="inline-block bg-[#f97316] text-white text-sm font-semibold px-4 py-1.5 rounded-full mb-6 uppercase tracking-wide">
               Free Quote
@@ -157,7 +157,7 @@ export default function QuotePage() {
                     </p>
                     <a
                       href="tel:844-967-5247"
-                      className="inline-flex items-center gap-2 bg-[#1a4f8a] hover:bg-blue-800 text-white font-semibold px-8 py-4 rounded-xl transition-colors text-lg mb-4"
+                      className="inline-flex items-center gap-2 bg-[#7C3C17] hover:bg-blue-800 text-white font-semibold px-8 py-4 rounded-xl transition-colors text-lg mb-4"
                     >
                       <Phone className="w-5 h-5" />
                       844-967-5247
@@ -165,7 +165,7 @@ export default function QuotePage() {
                     <div className="mt-4">
                       <Link
                         href="/"
-                        className="text-[#1a4f8a] hover:underline font-medium"
+                        className="text-[#7C3C17] hover:underline font-medium"
                       >
                         Back to Home
                       </Link>
@@ -201,7 +201,7 @@ export default function QuotePage() {
                           type="text"
                           required
                           placeholder="John"
-                          className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow"
+                          className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow"
                         />
                       </div>
                       <div>
@@ -213,7 +213,7 @@ export default function QuotePage() {
                           type="text"
                           required
                           placeholder="Smith"
-                          className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow"
+                          className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow"
                         />
                       </div>
                     </div>
@@ -228,7 +228,7 @@ export default function QuotePage() {
                         type="text"
                         required
                         placeholder="Smith Pipeline Services LLC"
-                        className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow"
+                        className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow"
                       />
                     </div>
 
@@ -243,7 +243,7 @@ export default function QuotePage() {
                           type="email"
                           required
                           placeholder="john@smithpipeline.com"
-                          className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow"
+                          className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow"
                         />
                       </div>
                       <div>
@@ -255,7 +255,7 @@ export default function QuotePage() {
                           type="tel"
                           required
                           placeholder="(602) 555-0100"
-                          className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow"
+                          className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow"
                         />
                       </div>
                     </div>
@@ -269,7 +269,7 @@ export default function QuotePage() {
                         <select
                           name="state"
                           required
-                          className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 bg-white focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow"
+                          className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 bg-white focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow"
                         >
                           <option value="">Select state...</option>
                           {US_STATES.map((s) => (
@@ -286,7 +286,7 @@ export default function QuotePage() {
                         <select
                           name="years_in_business"
                           required
-                          className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 bg-white focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow"
+                          className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 bg-white focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow"
                         >
                           <option value="">Select...</option>
                           <option value="less_than_1">Less than 1 year</option>
@@ -307,7 +307,7 @@ export default function QuotePage() {
                         <select
                           name="pipeline_type"
                           required
-                          className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 bg-white focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow"
+                          className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 bg-white focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow"
                         >
                           <option value="">Select type...</option>
                           <option value="oil_pipeline">Oil Pipeline</option>
@@ -327,7 +327,7 @@ export default function QuotePage() {
                         <select
                           name="annual_revenue"
                           required
-                          className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 bg-white focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow"
+                          className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 bg-white focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow"
                         >
                           <option value="">Select range...</option>
                           <option value="under_250k">Under $250K</option>
@@ -348,7 +348,7 @@ export default function QuotePage() {
                         name="message"
                         rows={4}
                         placeholder="Tell us more about your work — types of projects, crew size, current coverage questions, or anything else that helps us get you the right quote..."
-                        className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow resize-none"
+                        className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow resize-none"
                       />
                     </div>
 
@@ -360,16 +360,16 @@ export default function QuotePage() {
                       </div>
                       <div className="mb-4">
                       <label className="block text-sm font-semibold text-gray-700 mb-1.5">Street address</label>
-                      <input type="text" name="street_address" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                      <input type="text" name="street_address" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow" />
                     </div>
                       <div className="grid sm:grid-cols-2 gap-4">
                         <div className="mb-4">
                       <label className="block text-sm font-semibold text-gray-700 mb-1.5">City</label>
-                      <input type="text" name="city" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                      <input type="text" name="city" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow" />
                     </div>
                         <div className="mb-4">
                       <label className="block text-sm font-semibold text-gray-700 mb-1.5">ZIP code</label>
-                      <input type="text" name="zip" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                      <input type="text" name="zip" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow" />
                     </div>
                       </div>
                     </div>
@@ -381,21 +381,21 @@ export default function QuotePage() {
                       <div className="grid sm:grid-cols-2 gap-4">
                         <div className="mb-4">
                       <label className="block text-sm font-semibold text-gray-700 mb-1.5">Prior year gross sales</label>
-                      <input type="text" name="prior_year_gross_sales" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                      <input type="text" name="prior_year_gross_sales" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow" />
                     </div>
                         <div className="mb-4">
                       <label className="block text-sm font-semibold text-gray-700 mb-1.5">Prior year subcontractor expenses</label>
-                      <input type="text" name="prior_year_subcontractor_expenses" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                      <input type="text" name="prior_year_subcontractor_expenses" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow" />
                     </div>
                       </div>
                       <div className="grid sm:grid-cols-2 gap-4">
                         <div className="mb-4">
                       <label className="block text-sm font-semibold text-gray-700 mb-1.5">Prior year employee count</label>
-                      <input type="number" name="prior_year_employee_count" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                      <input type="number" name="prior_year_employee_count" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow" />
                     </div>
                         <div className="mb-4">
                       <label className="block text-sm font-semibold text-gray-700 mb-1.5">Prior year employee payroll</label>
-                      <input type="text" name="prior_year_employee_payroll" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                      <input type="text" name="prior_year_employee_payroll" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow" />
                     </div>
                       </div>
                     </div>
@@ -407,26 +407,26 @@ export default function QuotePage() {
                       <div className="grid sm:grid-cols-2 gap-4">
                         <div className="mb-4">
                       <label className="block text-sm font-semibold text-gray-700 mb-1.5">Estimated gross sales (next 12 months)</label>
-                      <input type="text" name="estimated_gross_sales" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                      <input type="text" name="estimated_gross_sales" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow" />
                     </div>
                         <div className="mb-4">
                       <label className="block text-sm font-semibold text-gray-700 mb-1.5">Estimated subcontractor expenses (next 12 months)</label>
-                      <input type="text" name="estimated_subcontractor_expenses" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                      <input type="text" name="estimated_subcontractor_expenses" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow" />
                     </div>
                       </div>
                       <div className="grid sm:grid-cols-2 gap-4">
                         <div className="mb-4">
                       <label className="block text-sm font-semibold text-gray-700 mb-1.5">Estimated employee count (year total)</label>
-                      <input type="number" name="estimated_employee_count" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                      <input type="number" name="estimated_employee_count" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow" />
                     </div>
                         <div className="mb-4">
                       <label className="block text-sm font-semibold text-gray-700 mb-1.5">Estimated employee annual payroll</label>
-                      <input type="text" name="estimated_employee_payroll" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                      <input type="text" name="estimated_employee_payroll" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow" />
                     </div>
                       </div>
                       <div className="mb-4">
                       <label className="block text-sm font-semibold text-gray-700 mb-1.5">Estimated material costs</label>
-                      <input type="text" name="estimated_material_costs" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                      <input type="text" name="estimated_material_costs" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow" />
                     </div>
                     </div>
                     <div className="space-y-4 pt-5 border-t border-adobe">
@@ -437,16 +437,16 @@ export default function QuotePage() {
                       <div className="grid sm:grid-cols-2 gap-4">
                         <div className="mb-4">
                       <label className="block text-sm font-semibold text-gray-700 mb-1.5">Do your subcontractors have insurance?</label>
-                      <select name="subcontractors_have_insurance" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow"><option value="">Select...</option><option value="Yes">Yes</option><option value="No">No</option></select>
+                      <select name="subcontractors_have_insurance" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow"><option value="">Select...</option><option value="Yes">Yes</option><option value="No">No</option></select>
                     </div>
                         <div className="mb-4">
                       <label className="block text-sm font-semibold text-gray-700 mb-1.5">What percent of your subcontractors have insurance?</label>
-                      <input type="number" name="percent_subcontractors_insured" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                      <input type="number" name="percent_subcontractors_insured" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow" />
                     </div>
                       </div>
                       <div className="mb-4">
                       <label className="block text-sm font-semibold text-gray-700 mb-1.5">Do you need coverage for uninsured subcontractors?</label>
-                      <select name="coverage_for_uninsured_subcontractors" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow"><option value="">Select...</option><option value="Yes">Yes</option><option value="No">No</option></select>
+                      <select name="coverage_for_uninsured_subcontractors" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow"><option value="">Select...</option><option value="Yes">Yes</option><option value="No">No</option></select>
                     </div>
                     </div>
                     <div className="space-y-4 pt-5 border-t border-adobe">
@@ -457,24 +457,24 @@ export default function QuotePage() {
                       <div className="grid sm:grid-cols-2 gap-4">
                         <div className="mb-4">
                       <label className="block text-sm font-semibold text-gray-700 mb-1.5">Year business started</label>
-                      <input type="number" name="year_business_started" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                      <input type="number" name="year_business_started" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow" />
                     </div>
                         <div className="mb-4">
                       <label className="block text-sm font-semibold text-gray-700 mb-1.5">Residential vs commercial split</label>
-                      <input type="text" name="residential_vs_commercial" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                      <input type="text" name="residential_vs_commercial" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow" />
                     </div>
                       </div>
                       <div className="mb-4">
                       <label className="block text-sm font-semibold text-gray-700 mb-1.5">New construction vs existing / remodel</label>
-                      <input type="text" name="new_vs_existing_construction" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                      <input type="text" name="new_vs_existing_construction" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow" />
                     </div>
                       <div className="mb-4">
                       <label className="block text-sm font-semibold text-gray-700 mb-1.5">Description of business</label>
-                      <textarea name="business_description" rows={3} className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow"></textarea>
+                      <textarea name="business_description" rows={3} className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow"></textarea>
                     </div>
                       <div className="mb-4">
                       <label className="block text-sm font-semibold text-gray-700 mb-1.5">5 largest projects ever (description + dollar amount)</label>
-                      <textarea name="largest_projects" rows={3} className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow"></textarea>
+                      <textarea name="largest_projects" rows={3} className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow"></textarea>
                     </div>
                     </div>
                     <div className="space-y-4 pt-5 border-t border-adobe">
@@ -485,26 +485,26 @@ export default function QuotePage() {
                       <div className="grid sm:grid-cols-2 gap-4">
                         <div className="mb-4">
                       <label className="block text-sm font-semibold text-gray-700 mb-1.5">Class code 1 (+ % of operations)</label>
-                      <input type="text" name="class_code_1" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                      <input type="text" name="class_code_1" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow" />
                     </div>
                         <div className="mb-4">
                       <label className="block text-sm font-semibold text-gray-700 mb-1.5">Class code 2 (+ % of operations)</label>
-                      <input type="text" name="class_code_2" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                      <input type="text" name="class_code_2" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow" />
                     </div>
                       </div>
                       <div className="grid sm:grid-cols-2 gap-4">
                         <div className="mb-4">
                       <label className="block text-sm font-semibold text-gray-700 mb-1.5">Class code 3 (+ % of operations)</label>
-                      <input type="text" name="class_code_3" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                      <input type="text" name="class_code_3" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow" />
                     </div>
                         <div className="mb-4">
                       <label className="block text-sm font-semibold text-gray-700 mb-1.5">Class code 4 (+ % of operations)</label>
-                      <input type="text" name="class_code_4" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                      <input type="text" name="class_code_4" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow" />
                     </div>
                       </div>
                       <div className="mb-4">
                       <label className="block text-sm font-semibold text-gray-700 mb-1.5">Class code 5 (+ % of operations)</label>
-                      <input type="text" name="class_code_5" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                      <input type="text" name="class_code_5" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow" />
                     </div>
                     </div>
                     <div className="space-y-4 pt-5 border-t border-adobe">
@@ -530,16 +530,16 @@ export default function QuotePage() {
                       <div className="grid sm:grid-cols-2 gap-4">
                         <div className="mb-4">
                       <label className="block text-sm font-semibold text-gray-700 mb-1.5">Prior insurance carrier name</label>
-                      <input type="text" name="prior_carrier_name" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                      <input type="text" name="prior_carrier_name" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow" />
                     </div>
                         <div className="mb-4">
                       <label className="block text-sm font-semibold text-gray-700 mb-1.5">Prior policy number</label>
-                      <input type="text" name="prior_policy_number" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                      <input type="text" name="prior_policy_number" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow" />
                     </div>
                       </div>
                       <div className="mb-4">
                       <label className="block text-sm font-semibold text-gray-700 mb-1.5">Prior policy expiration date</label>
-                      <input type="date" name="prior_policy_expiration" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1a4f8a] focus:border-transparent transition-shadow" />
+                      <input type="date" name="prior_policy_expiration" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow" />
                     </div>
                     </div>
 
@@ -593,7 +593,7 @@ export default function QuotePage() {
 
             {/* Trust Sidebar — 2 cols */}
             <div className="lg:col-span-2 space-y-6">
-              <div className="bg-[#1a4f8a] rounded-2xl p-6 text-white">
+              <div className="bg-[#7C3C17] rounded-2xl p-6 text-white">
                 <h3 className="font-bold text-lg mb-5">
                   Why Get a Quote With Us?
                 </h3>
@@ -626,7 +626,7 @@ export default function QuotePage() {
                 </div>
                 <a
                   href="tel:844-967-5247"
-                  className="text-[#1a4f8a] text-2xl font-bold hover:text-blue-700 transition-colors block mb-1"
+                  className="text-[#7C3C17] text-2xl font-bold hover:text-blue-700 transition-colors block mb-1"
                 >
                   844-967-5247
                 </a>
