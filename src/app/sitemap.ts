@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/coverages/equipment-coverage`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/coverages/pollution-liability`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/coverages/contractor-bonds`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/markets`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${base}/about`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${base}/contact`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${base}/quote`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },

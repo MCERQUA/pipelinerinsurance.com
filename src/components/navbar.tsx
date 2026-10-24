@@ -18,6 +18,7 @@ const navLinks = [
       { label: "Contractor Bonds", href: "/coverages/bonds" },
     ],
   },
+  { label: "Markets", href: "/markets" },
   { label: "About", href: "/about" },
   { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/contact" },

@@ -4,6 +4,7 @@ import { Shield, Phone, Mail, MapPin, CheckCircle } from "lucide-react";
 const quickLinks = [
   { label: "Home", href: "/" },
   { label: "Coverage", href: "/coverages" },
+  { label: "Markets", href: "/markets" },
   { label: "Blog", href: "/blog" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
