@@ -532,10 +532,6 @@ export default function QuotePage() {
                       <label className="block text-sm font-semibold text-gray-700 mb-1.5">Prior insurance carrier name</label>
                       <input type="text" name="prior_carrier_name" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow" />
                     </div>
-                        <div className="mb-4">
-                      <label className="block text-sm font-semibold text-gray-700 mb-1.5">Prior policy number</label>
-                      <input type="text" name="prior_policy_number" className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7C3C17] focus:border-transparent transition-shadow" />
-                    </div>
                       </div>
                       <div className="mb-4">
                       <label className="block text-sm font-semibold text-gray-700 mb-1.5">Prior policy expiration date</label>
